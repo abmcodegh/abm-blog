@@ -1,6 +1,6 @@
 ![Picture1](_media/Jmix_Announcement.jpg ":class=title-image")
 
-# Jmix - 业务系统高效开发的新方式
+# [Jmix](www.jmix.cn) - 业务系统高效开发的新方式
 
 > 世开新语
 
