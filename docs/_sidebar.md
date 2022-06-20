@@ -4,4 +4,5 @@
 
 
 - Jmix
-  - [Jmix - 高效开发的新方式](zh-cn/jmix-introduction "Jmix - 业务系统高效开发的新方式")
+  - [Jmix - 高效开发的新方式](zh-cn/jmix/jmix-introduction "Jmix - 业务系统高效开发的新方式")
+  - 

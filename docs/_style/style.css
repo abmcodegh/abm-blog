@@ -17,3 +17,10 @@
 .title-1 {
     font-size: 1.5rem;
 }
+
+.title-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
