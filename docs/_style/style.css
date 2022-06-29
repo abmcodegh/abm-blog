@@ -18,9 +18,24 @@
     font-size: 1.5rem;
 }
 
+.center-image,
+.center-eighty-image,
+.center-fifty-image,
 .title-image {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.title-image {
     width: 60%;
+    border-radius: 10px;
+}
+
+.center-eighty-image {
+    width: 80%;
+}
+
+.center-fifty-image {
+    width: 50%;
 }
