@@ -2,7 +2,7 @@
 
 # 扩展组件开发新体验
 
-> 世开 Coding
+<p class="author">世开 Coding</p>
 
 扩展组件的概念在使用 Jmix 框架开发中扮演着非常重要的角色。我们将在本文探索什么是扩展组件以及 Jmix Studio 在扩展组件开发和应用程序模块化方面能给开发者带来什么帮助。
 
@@ -22,11 +22,11 @@ Studio 现在提供了一个功能来简化这种模块化系统的开发。在�
 
 一般来说，同时开发扩展组件和使用扩展组件的应用程序需要经常在两个项目之间切换。你需要更改扩展组件的代码，构建然后发布至本地 Maven 仓库。然后切换至应用程序项目，IDE 加载新的组件制件并重新建立索引。现在才能修改应用程序代码，测试并查看组件的改动。
 
-![单一扩展组件原开发方法](_media/jmix_dev_addon_Feedback_Loop_1.svg ":class=center-image")
+![单一扩展组件原开发方法](_media/jmix_dev_addon_Feedback_Loop_1.svg ":class=full-image")
 
 如果同时开发应用程序和多个扩展组件，情况会更加糟糕。很可能，你的某些扩展组件之间会相互依赖，你需要在好几个项目之间切换，运行主程序前要发布多个组件才能确保已经加载需要的改动。如果失败了，所有这些步骤都得重来一遍。
 
-![多扩展组件原开发方法](_media/jmix_dev_addon_Feedback_Loop_2.svg ":class=center-image")
+![多扩展组件原开发方法](_media/jmix_dev_addon_Feedback_Loop_2.svg ":class=full-image")
 
 可以看到，开发扩展组件的反馈回路远没有达到我们希望的理想状态，需要太多步骤才能看到最新改动。针对这种情况有一个显而易见的解决办法，那就是将扩展组件和主应用程序作为单一项目中的不同模块。这样做一方面 IDE 可以提供透明的代码重构，任何模块中的改动都是立即可见的。但是另一方面，扩展组件与应用程序的开发、测试、发布等所有的生命周期都变成了紧耦合状态，独立开发扩展组件库也已经变得不可能。
 
@@ -52,7 +52,7 @@ Jmix Studio 从 1.2 版开始支持组合项目，进一步提升了开发者的
 
 Studio 在 Jmix 工具窗口将组合项目和所有的子项目作为顶级节点展示：
 
-![gradle配置](_media/jmix_dev_addon_gradle_settings.png ":class=center-fifty-image")
+![gradle配置](_media/jmix_dev_addon_gradle_settings.png ":class=center-fifty-image-shadow")
 
 你可以编辑所有子项目的通用属性：只需要在 Studio 询问需要编辑哪些项目时选择 **All subprojects**：
 
@@ -70,7 +70,7 @@ Studio 在 Jmix 工具窗口将组合项目和所有的子项目作为顶级节�
 
 当新建项目元素，比如实体或界面时，Studio 会自动在 Jmix 工具窗口中选中当前的项目：
 
-![新实体](_media/jmix_dev_addon_new_entity.png ":class=center-fifty-image")
+![新实体](_media/jmix_dev_addon_new_entity.png ":class=center-fifty-image-shadow")
 
 最后需要提及的一点是，Studio 能正确地将扩展组件中的改动热部署到正在运行的应用程序中。因此，如果启动应用程序，然后更改扩展组件提供的 UI 界面，则无需重启即可看到组件中的改动，就好像该界面是主应用程序的源码一样。
 
