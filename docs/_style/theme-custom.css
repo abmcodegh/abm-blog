@@ -5,7 +5,8 @@
     --theme-warning-color: #f15c80;
 
     /* Cover ============================================================================= */
-    --cover-color: #aaa;
+    --cover-background-color: rgb(83, 165, 232);
+    --cover-background-mask-color: var(--cover-color);
     --cover-blockquote-color: var(--theme-warning-color);
     --blockquote-color: #555;
     --cover-heading-color: var(--theme-accent-color);
