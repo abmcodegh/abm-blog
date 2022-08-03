@@ -11,6 +11,6 @@
 
 ### 关注我们
 
-扫描关注我们的公众号，获取实时文章推送：
+关注我们的公众号，获取实时文章推送：
 
 ![ABMcode QR code](_media/abmcode_qrcode.jpg ":class=qr-code")

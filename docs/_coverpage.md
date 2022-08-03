@@ -1,6 +1,6 @@
-![logo](_media/brand_512x100.png ':size=50%')
+![logo](_media/Coding_512x100.png ':size=80%')
 
-# 世开 Coding
+<!-- # 世开 Coding -->
 
 > 知客户 懂产品 爱技术 创价值
 

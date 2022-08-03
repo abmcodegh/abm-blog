@@ -2,10 +2,6 @@
     /* color: red !important; */
 }
 
-.custom-content {
-    display: none;
-}
-
 .sk-blue {
     color: var(--theme-color);
 }
@@ -14,8 +10,22 @@
     color: var(--theme-accent-color);
 }
 
+.footer,
 .center {
     text-align: center;
+}
+
+.footer {
+    position: relative;
+}
+
+.footer #qrcode {
+    position: absolute;
+    right: 0;
+    top: 0;
+    max-width: 8%;
+    box-shadow: 0 2px 9px #F39435;
+    margin-top: -20px;
 }
 
 .title-1 {

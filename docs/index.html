@@ -9,8 +9,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.css">
-  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css" /> -->
-  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" /> -->
   <link rel="stylesheet" href="_style/theme-custom.css">
   <link rel="stylesheet" href="_style/image.css">
   <link rel="stylesheet" href="_style/style.css">
@@ -19,72 +17,18 @@
 
 <body>
   <div id="app">Loading...</div>
-  <div class="custom-content">
-    <p>test</p>
-  </div>
   <script src="//cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
-  <script>
-    var num = 0;
-    var year = new Date().getFullYear();
-    mermaid.initialize({ startOnLoad: false });
-    window.$docsify = {
-      name: '世开 Coding',
-      // logo: '_media/logo64.png',
-      repo: '',
-      loadSidebar: true,
-      subMaxLevel: 2,
-      // sidebarDisplayLevel: 1,
-      alias: {
-        '/.*/_sidebar.md': '/_sidebar.md'
-      },
-      coverpage: true,
-      count: {
-        countable: true,
-        fontsize: '0.9em',
-        color: 'rgb(90,90,90)',
-        language: 'chinese'
-      },
-      copyCode: {
-        buttonText: '点击复制',
-        errorText: '复制出错',
-        successText: '已复制'
-      },
-      footer: {
-        copy: '<span class="sk-blue">「所有文章均可转载，转载请注明出处」</span><br/><span class="center"> ©Copyright 2018 - ' + year + ' All rights reversed </span>',
-        auth: 'by <a href="https://www.abmcode.com" target="_blank">ABMcode（北京世开科技有限公司）</a>',
-        pre: '<hr/>',
-        style: 'text-align: center;',
-        class: 'footer',
-      },
-      themeable: {
-        readyTransition: true,
-        responsiveTables: true
-      },
-      markdown: {
-        renderer: {
-          code: function (code, lang) {
-            if (lang === "mermaid") {
-              return (
-                '<div class="mermaid">' + mermaid.render('mermaid-svg-' + num++, code) + "</div>"
-              );
-            }
-            return this.origin.code.apply(this, arguments);
-          }
-        }
-      }
-    }
-  </script>
+  <script type='text/javascript' src="/js/site.js"></script>
+
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code/dist/docsify-copy-code.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
   <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
-  <script src="//unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
-  <!-- sidebar collapse-->
-  <!-- <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script> -->
 
   <!-- 图片缩放 -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <!-- 编程语言 -->
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-java.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-scss.min.js"></script>
