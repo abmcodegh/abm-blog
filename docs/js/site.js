@@ -1,3 +1,6 @@
+var num = 0;
+var year = new Date().getFullYear();
+
 var abmDocsifyPlugins = [
     function (hook, vm) {
         var footer = [
@@ -19,15 +22,14 @@ var abmDocsifyPlugins = [
     }
 ];
 
-var num = 0;
-var year = new Date().getFullYear();
+
 mermaid.initialize({ startOnLoad: false });
 window.$docsify = {
     name: '世开 Coding',
     logo: '_media/Coding_256x50.png',
     repo: '',
     loadSidebar: true,
-    subMaxLevel: 2,
+    subMaxLevel: 1,
     // sidebarDisplayLevel: 1,
     alias: {
         '/.*/_sidebar.md': '/_sidebar.md'
@@ -47,6 +49,11 @@ window.$docsify = {
     themeable: {
         readyTransition: true,
         responsiveTables: true
+    },
+    toc: {
+        scope: '.markdown-section',
+        headings: ' h2, h3',
+        title: '目录',
     },
     markdown: {
         renderer: {

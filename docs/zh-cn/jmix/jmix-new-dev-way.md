@@ -56,17 +56,17 @@ Studio 在 Jmix 工具窗口将组合项目和所有的子项目作为顶级节�
 
 你可以编辑所有子项目的通用属性：只需要在 Studio 询问需要编辑哪些项目时选择 **All subprojects**：
 
-![编辑项目属性](_media/jmix-new-dev-way/jmix_dev_addon_edit_properties.png ":class=center-fifty-image")
+![编辑项目属性](_media/jmix-new-dev-way/jmix_dev_addon_edit_properties.png ":class=center-fifty-image-shadow")
 
 通用属性包括制件仓库的设置和 Jmix 框架的版本。因此可以一次将所有子项目升级至新的 Jmix 版本。
 
 对于大型复合项目，最有用的功能可能是支持在简易的对话框中配置子项目之间的依赖关系：
 
-![组件依赖1](_media/jmix-new-dev-way/jmix_dev_addon_deps1.png ":class=center-eighty-image")
+![组件依赖1](_media/jmix-new-dev-way/jmix_dev_addon_deps1.png ":class=center-eighty-image-shadow")
 
 这里，**orders** 是一个扩展组件，依赖 **staff** 和 **customers** 组件。根据在此对话框中所做的修改，Studio 会将依赖添加到子项目的 `build.gradle` 文件中，并配置扩展组件的 `@JmixModule` 注解。此外，还可以防止引入循环依赖。在下面的截图中，可以看到该对话框不允许 **customers** 组件依赖 **orders** ，因为 **orders** 已经依赖 **customers**：
 
-![组件依赖2](_media/jmix-new-dev-way/jmix_dev_addon_deps2.png ":class=center-eighty-image")
+![组件依赖2](_media/jmix-new-dev-way/jmix_dev_addon_deps2.png ":class=center-eighty-image-shadow")
 
 当新建项目元素，比如实体或界面时，Studio 会自动在 Jmix 工具窗口中选中当前的项目：
 

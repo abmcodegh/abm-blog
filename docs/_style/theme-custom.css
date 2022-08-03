@@ -1,4 +1,7 @@
+/* https://jhildenbiddle.github.io/docsify-themeable/#/customization */
+
 :root {
+    --base-background-color: rgb(235, 246, 255);
     --base-font-size: 16px;
     --theme-color: #303A9A;
     --theme-accent-color: #FE8A34;
@@ -23,7 +26,8 @@
     --cover-text-align: center;
 
     /* Sidebar ============================================================================= */
-    --sidebar-width: 24rem;
+    --sidebar-background: var(--base-background-color);
+    --sidebar-width: 17em;
 
     /* Content ============================================================================= */
     --content-max-width: 80em;
@@ -57,4 +61,7 @@
     --sidebar-toggle-height: 40px;
     --sidebar-toggle-border-radius: 50%;
     --sidebar-toggle-offset-left: -20px;
+
+    /* toc */
+    --toc-width: 220px;
 }
