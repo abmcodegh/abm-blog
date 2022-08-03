@@ -10,6 +10,7 @@
 .center-eighty-image-shadow,
 .center-fifty-image-shadow,
 .full-image,
+.full-image-svg,
 .title-image {
     display: block;
     margin-left: auto;
@@ -38,9 +39,14 @@
 }
 
 .full-image,
+.full-image-svg,
 .center-image-shadow,
 .center-fifty-image-shadow,
 .center-eighty-image-shadow,
 .title-image {
     box-shadow: rgba(0, 0, 0, 0.3) 0px 7px 20px;
+}
+
+.full-image-svg {
+    padding: 10px;
 }

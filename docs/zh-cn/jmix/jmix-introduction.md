@@ -1,4 +1,4 @@
-![Jmix宣言标题图](_media/Jmix_Announcement.jpg ":class=title-image")
+![Jmix宣言标题图](_media/jmix-introduction/Jmix_Announcement.jpg ":class=title-image")
 
 # [Jmix](www.jmix.cn) - 业务系统高效开发的新方式
 
@@ -38,7 +38,7 @@ Jmix 是一个全栈开发框架，可以帮您解决在编写业务系统时可
 
 Jmix 是一个全新的框架，但仍然具有超过十年积淀的成熟度。Jmix 是 CUBA 平台的意识形态继承者，采用最新技术进行构建。CUBA 平台已被全球数千名开发人员使用，无论是小型初创企业或是财富 500 强企业。与 CUBA 平台一样，Jmix 的目标也是提升创建业务应用系统的效率，为高效软件开发的三个支柱提供解决方案。
 
-![jmix项目预览](_media/jmix_new_eff1.png)
+![jmix项目预览](_media/jmix-introduction/jmix_new_eff1.png)
 
 Jmix 涵盖了应用系统的各个方面，从底层数据库设计至用户界面设计或 API 设计。它使用行业标准的框架和工具为开发人员提供最佳的体验。框架通过 Jmix Studio（IntelliJ IDEA 的插件）提供支持，帮助开发者摆脱多种工具协调的问题并加快开发进程。
 
@@ -59,7 +59,7 @@ Jmix Studio 是一款 IntelliJ IDEA 的插件，通过与 IDEA 的无缝集成�
 
 开发者可以在源代码或可视化设计器之间随时切换，两边做的改动都会自动同步。这个功能支持所有的可视化设计内容：数据模型、用户界面、业务流、安全角色定义。
 
-![Studio 预览](_media/jmix_new_eff2.png)
+![Studio 预览](_media/jmix-introduction/jmix_new_eff2.png)
 
 Jmix Studio 的主要功能都涵盖在免费版中。而一些能提高初级开发人员效率的功能，比如可视化设计器，则仅在两款商业版中提供。
 
@@ -103,7 +103,7 @@ Jmix 附带各种扩展组件，可以为业务系统中常见的问题提供解
 ### BPM（业务流管理）
 业务应用系统很常见的一个需求就是对业务中的某种流程进行建模。BPMN 是这类问题解决方案的标准。Jmix 的 BPM 是一个扩展组件，通过使用 BPMN 工作流引擎对 Jmix 应用系统进行增强，该引擎基于 Java 生态中最常用的框架 Flowable 构建。BPM 组件将 Flowable 无缝地集成进 Jmix 业务系统，并提供一系列附加功能，如流程设计器，流程管理员界面，以及简化的 API。有了这些能力，在业务流中多人协作的流程就很容易建模了。
 
-![BPM 界面](_media/jmix_new_eff3.png)
+![BPM 界面](_media/jmix-introduction/jmix_new_eff3.png)
 
 ### 报表
 报表组件解决了使用业务系统中数据创建报表的问题。报表类型支持多种格式，如 DOCX、XLSX、PDF、HTML 等。该组件将报表引擎集成进 Jmix 应用系统，并增加了易用功能，比如报表界面创建向导、数据提取接口等。
