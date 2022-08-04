@@ -62,11 +62,11 @@ Studio 在 Jmix 工具窗口将组合项目和所有的子项目作为顶级节�
 
 对于大型复合项目，最有用的功能可能是支持在简易的对话框中配置子项目之间的依赖关系：
 
-![组件依赖1](_media/jmix-new-dev-way/jmix_dev_addon_deps1.png ":class=center-eighty-image-shadow")
+![组件依赖1](_media/jmix-new-dev-way/jmix_dev_addon_deps1.png ":class=center-fifty-image-shadow")
 
 这里，**orders** 是一个扩展组件，依赖 **staff** 和 **customers** 组件。根据在此对话框中所做的修改，Studio 会将依赖添加到子项目的 `build.gradle` 文件中，并配置扩展组件的 `@JmixModule` 注解。此外，还可以防止引入循环依赖。在下面的截图中，可以看到该对话框不允许 **customers** 组件依赖 **orders** ，因为 **orders** 已经依赖 **customers**：
 
-![组件依赖2](_media/jmix-new-dev-way/jmix_dev_addon_deps2.png ":class=center-eighty-image-shadow")
+![组件依赖2](_media/jmix-new-dev-way/jmix_dev_addon_deps2.png ":class=center-fifty-image-shadow")
 
 当新建项目元素，比如实体或界面时，Studio 会自动在 Jmix 工具窗口中选中当前的项目：
 

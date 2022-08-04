@@ -1,11 +1,12 @@
 /* https://jhildenbiddle.github.io/docsify-themeable/#/customization */
 
 :root {
-    --base-background-color: rgb(235, 246, 255);
+    --base-background-color: #f5f5f5;
     --base-font-size: 16px;
     --theme-color: #303A9A;
     --theme-accent-color: #FE8A34;
-    --theme-warning-color: #f15c80;
+    --theme-warning-color: #FB0067;
+    --theme-list-color: #4F68C2;
 
     /* Cover ============================================================================= */
     --cover-background-color: rgb(83, 165, 232);
@@ -35,6 +36,10 @@
     --heading-h1-color: var(--theme-accent-color);
     --heading-h2-color: var(--theme-color);
     --heading-font-weight: 600;
+
+    /* Table */
+    /* --table-body-border-width: 1px; */
+    --table-body-border-color: var(--theme-accent-color);
 
     /* Code */
     --code-inline-background: #ececec;

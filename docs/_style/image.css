@@ -7,8 +7,10 @@
 .center-image-shadow,
 .center-eighty-image,
 .center-fifty-image,
+.center-thirty-image,
 .center-eighty-image-shadow,
 .center-fifty-image-shadow,
+.center-thirty-image-shadow,
 .full-image,
 .full-image-svg,
 .title-image {
@@ -19,6 +21,11 @@
 
 .title-image {
     width: 60%;
+}
+
+.center-thirty-image-shadow,
+.center-thirty-image {
+    width: 30%;
 }
 
 .center-fifty-image-shadow,
@@ -33,6 +40,7 @@
 
 .full-image-svg,
 .center-image-shadow,
+.center-thirty-image-shadow,
 .center-fifty-image-shadow,
 .center-eighty-image-shadow,
 .title-image {
@@ -42,6 +50,7 @@
 .full-image,
 .full-image-svg,
 .center-image-shadow,
+.center-thirty-image-shadow,
 .center-fifty-image-shadow,
 .center-eighty-image-shadow,
 .title-image {
