@@ -65,10 +65,11 @@ var classPlugin = function (hook, vm) {
         }
 
         var dom = parser.parseFromString(html, "text/html");
-        var el;
 
         for (var i = 0; i < settings.length; i++) {
             var setting = settings[i];
+
+            var el = undefined;
 
             if (setting.target === "class") {
                 el = dom.getElementsByClassName(setting.value);

@@ -60,3 +60,16 @@
 .full-image-svg {
     padding: 10px;
 }
+
+@media screen and (max-width: 800px) {
+
+    .title-image,
+    .center-thirty-image-shadow,
+    .center-thirty-image,
+    .center-fifty-image-shadow,
+    .center-fifty-image,
+    .center-eighty-image-shadow,
+    .center-eighty-image {
+        width: 100%;
+    }
+}
