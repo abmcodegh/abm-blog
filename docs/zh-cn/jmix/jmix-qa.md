@@ -78,7 +78,7 @@ Jmix 许可价格请参考我们的[订阅计划和价格](https://www.jmix.cn/s
 
 我们为 Jmix **企业开发版订阅**提供批量优惠：
 
-{"target":"class","value":"table-wrapper","idx":0,"class":"abmTable fifty"}
+classPlugin:{"target":"class","value":"table-wrapper","idx":0,"class":"abmTable fifty"}
 | 开发者数量 | 优惠折扣 |
 | ---------- | -------- |
 | 5 个以上   | 九折     |

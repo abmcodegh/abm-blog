@@ -35,7 +35,7 @@ var footerPlugin = function (hook, vm) {
  */
 var classPlugin = function (hook, vm) {
 
-    var re = /(\{[^}]+\})/g;
+    var re = /(classPlugin:\{[^}]+\})/g;
     var settings;
     var parser = new DOMParser();
 
@@ -53,6 +53,9 @@ var classPlugin = function (hook, vm) {
         }
 
         settings = anySetting.map(function (s) {
+
+            s = s.substring(12);
+
             return JSON.parse(s);
         });
 

@@ -10,22 +10,54 @@
     color: var(--theme-accent-color);
 }
 
+h1 {
+    display: block;
+    text-align: center;
+}
+
 /* sideBar logo*/
 .sidebar>h1 img {
     max-width: 70%;
 }
 
+.sidebar-nav em {
+    display: block;
+    padding-left: 5px;
+    font-style: unset;
+    font-weight: 500;
+    color: #999;
+    /* border-left: 2px solid var(--theme-warning-color); */
+}
+
+.sidebar-nav a {
+    font-size: 14px;
+}
+
+.page_toc::-webkit-scrollbar,
+.sidebar::-webkit-scrollbar {
+    width: 4px
+}
+
+.page_toc::-webkit-scrollbar-thumb,
+.sidebar::-webkit-scrollbar-thumb {
+    background: transparent;
+    border-radius: 4px
+}
+
+.page_toc:hover::-webkit-scrollbar-thumb,
+.sidebar:hover::-webkit-scrollbar-thumb {
+    background: hsla(0, 0%, 53.3%, .4)
+}
+
+.page_toc:hover::-webkit-scrollbar-track,
+.sidebar:hover::-webkit-scrollbar-track {
+    background: hsla(0, 0%, 53.3%, .1)
+}
+
+
 .footer,
 .center {
     text-align: center;
-}
-
-.title-1 {
-    font-size: 1.5rem;
-}
-
-.title-2 {
-    font-size: 1.2rem;
 }
 
 .markdown-section li {
@@ -67,6 +99,7 @@
 
 .page_toc {
     top: 3em;
+    font-size: 14px;
     overflow-y: auto;
     width: var(--toc-width);
     height: 50%;
@@ -76,10 +109,11 @@
     margin-left: 20px;
 }
 
-.page_toc .active {
-    display: block;
-    background-image: linear-gradient(to right, #bff4fa, var(--base-background-color));
+.page_toc .active,
+.page_toc ul a:hover span {
+    color: var(--theme-warning-color);
 }
+
 
 .fifty {
     max-width: 50%;

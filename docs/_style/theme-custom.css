@@ -29,6 +29,7 @@
     /* Sidebar ============================================================================= */
     --sidebar-background: var(--base-background-color);
     --sidebar-width: 17em;
+    --sidebar-nav-pagelink-background: unset;
 
     /* Content ============================================================================= */
     --content-max-width: 80em;
@@ -45,14 +46,14 @@
     --code-inline-background: #ececec;
     --code-inline-color: var(--theme-color);
 
-    --code-theme-background: #2A2D3D;
-    /* --code-theme-tag: #7ec699;
-    --code-theme-function: #f8c555;
-    --code-theme-selector: #eeeeee; */
-    --code-theme-text: #f8f8f8;
-    /* --code-theme-selection: #91e8e1;
-    --code-theme-keyword: #ff6f69; */
+    --code-theme-background: #f9f9f9;
     --code-font-size: 14px;
+    --code-theme-function: var(--theme-warning-color);
+    --code-theme-keyword: var(--theme-color);
+    --code-theme-punctuation: #848527;
+    --code-theme-selector: #07831E;
+    --code-theme-tag: var(--theme-accent-color);
+    --code-theme-text: #333;
 
     /* Links */
     --link-color: var(--theme-accent-color);
