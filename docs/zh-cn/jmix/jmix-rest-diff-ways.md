@@ -1,10 +1,12 @@
+![rest api](_media/jmix-rest-diff-ways/jmix-rest-api.png ":class=title-image")
+
 # Jmix 中 REST API 的两种实现
 
 <p class="author">世开 Coding</p>
 
 很多应用是采取前后端分离的方式进行开发。这种模式下，对前端的选择相对灵活，可以根据团队的擅长技能选择流行的 Angular/React/Vue 之一，或者前端为App/小程序等手机应用。Jmix 的一种典型应用场景就是作为这种类型应用程序的高级别管理 UI 和后端。为此，Jmix 提供了强大的通用 REST API 功能，支持包括开箱即用的实体、文件、元数据、用户会话的 API 以及经过简单配置就能支持的业务逻辑（服务）REST API。
 
-由于 Jmix 是基于 Spring Boot 框架，因此也支持 Spring 的 `RestController`。那么对于 Spring 的 REST API 机制和 Jmix 提供机制，究竟有什么不同，而我们在开发时又该如何选择呢？本文将通过具体的代码示例，介绍这两种 API 的区别，相信看完之后，该如何选择您心理应该有数了。
+由于 Jmix 是基于 Spring Boot 框架，因此也支持 Spring 的 `RestController`。那么对于 Spring 的 REST API 机制和 Jmix 提供机制，究竟有什么不同，而我们在开发时又该如何选择呢？本文将通过具体的代码示例，介绍这两种 API 的区别，相信看完之后，该如何选择您心里应该有数了。
 
 ## 数据模型和服务
 
@@ -54,7 +56,7 @@ public class ProductService {
 
         List<Product> productList = dataManager.load(Product.class)
                 .query("select p from sls_Product p " +
-                        "where p.price <= :priceInput")
+                        "where p.price < :priceInput")
                 .parameter("priceInput", price)
                 .list();
 
