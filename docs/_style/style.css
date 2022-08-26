@@ -26,7 +26,6 @@ h1 {
     font-style: unset;
     font-weight: 500;
     color: #999;
-    /* border-left: 2px solid var(--theme-warning-color); */
 }
 
 .sidebar-nav a {
@@ -83,6 +82,17 @@ h1 {
     opacity: 0.5;
 }
 
+.author .update-time {
+    position: absolute;
+    right: 10px;
+    font-size: 0.7rem;
+    font-style: italic;
+    padding-top: 1rem;
+}
+
+.author .update-time::before {
+    content: '更新于：';
+}
 
 .footer {
     position: relative;

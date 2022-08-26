@@ -1,7 +1,6 @@
 var num = 0;
 var year = new Date().getFullYear();
 
-
 var footerPlugin = function (hook, vm) {
     var footer = [
         '<hr/>',
@@ -116,7 +115,7 @@ window.$docsify = {
     repo: '',
     loadSidebar: true,
     subMaxLevel: 1,
-    // sidebarDisplayLevel: 1,
+    sidebarDisplayLevel: 1,
     alias: {
         '/.*/_sidebar.md': '/_sidebar.md'
     },

@@ -2,7 +2,7 @@
 
 # 扩展组件开发新体验
 
-<p class="author">世开 Coding</p>
+<p class="author">世开 Coding<span class="update-time">2022-08-04</span></p>
 
 扩展组件的概念在使用 Jmix 框架开发中扮演着非常重要的角色。我们将在本文探索什么是扩展组件以及 Jmix Studio 在扩展组件开发和应用程序模块化方面能给开发者带来什么帮助。
 

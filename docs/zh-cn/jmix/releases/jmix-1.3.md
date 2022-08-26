@@ -2,7 +2,7 @@
 
 # Jmix 1.3 版本发布
 
-<p class="author">世开 Coding</p>
+<p class="author">世开 Coding<span class="update-time">2022-08-09</span></p>
 
 最近我们发布了 Jmix 的一个新功能版本 1.3.0。这可以说是一个里程碑版本，其中包含 Vaadin Flow UI 和一键云部署的功能预览。本文中，我们将介绍该升级版本中包含的一些重要功能。
 

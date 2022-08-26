@@ -2,7 +2,7 @@
 
 # Jmix 中 REST API 的两种实现
 
-<p class="author">世开 Coding</p>
+<p class="author">世开 Coding<span class="update-time">2022-08-24</span></p>
 
 很多应用是采取前后端分离的方式进行开发。这种模式下，对前端的选择相对灵活，可以根据团队的擅长技能选择流行的 Angular/React/Vue 之一，或者前端为App/小程序等手机应用。Jmix 的一种典型应用场景就是作为这种类型应用程序的高级别管理 UI 和后端。为此，Jmix 提供了强大的通用 REST API 功能，支持包括开箱即用的实体、文件、元数据、用户会话的 API 以及经过简单配置就能支持的业务逻辑（服务）REST API。
 
@@ -99,7 +99,7 @@ Jmix 服务（Service） API 可以将任意 Spring bean 作为 HTTP 接口开�
 
 ![Postman 调用服务 API](https://blog.abmcode.com/zh-cn/jmix/_media/jmix-rest-diff-ways/postman_service_call.png ":class=center-eighty-image-shadow")
 
-!> 服务 API 会默认使用 Jmix 的安全机制：API 端口需要使用认证 token 进行访问，而且用户需要有访问 REST API 和所查询实体的权限。另外，Jmix 的服务 API 也支持匿名访问。
+!> 服务 API 会默认使用 Jmix 的安全机制：API 端口需要使用认证 token 进行访问，而且用户需要有访问 REST API 和所查询实体的权限。另外，Jmix 的服务 API 也支持[匿名访问](https://docs.jmix.cn/jmix/rest/security/authentication.html#anonymous-access)。
 
 ## Spring 控制器 API
 
@@ -149,3 +149,5 @@ jmix.rest.authenticatedUrlPatterns=/products/**
 - 除了使用服务层的实体控制外，还可以在控制器层使用自定义的 DTO 对返回实体的信息做进一步控制
 
 因此，在大多数情况下，我们仅使用 Jmix 的服务 API 就能够满足使用要求。针对部分复杂场景可以使用 Spring 控制器 API。
+
+?> 文中使用的 Jmix 版本：1.3.1

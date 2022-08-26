@@ -2,7 +2,7 @@
 
 # [Jmix](https://www.jmix.cn) - 业务系统高效开发的新方式
 
-<p class="author">世开 Coding</p>
+<p class="author">世开 Coding<span class="update-time">2022-08-11</span></p>
 
 企业在数字化转型的过程中，都面临将现有的业务流程进行“软件化”的过程。然而，在我们的印象中，通常会觉得针对业务系统的软件开发不是特别高效。这背后有很多原因，从开发角度看，有一个主要的原因是软件开发者缺乏合适的工具。
 
