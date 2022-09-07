@@ -15,6 +15,10 @@ h1 {
     text-align: center;
 }
 
+.sidebar {
+    box-shadow: 5px 5px 5px #ccc;
+}
+
 /* sideBar logo*/
 .sidebar>h1 img {
     max-width: 70%;
@@ -112,7 +116,8 @@ h1 {
     font-size: 14px;
     overflow-y: auto;
     width: var(--toc-width);
-    height: 50%;
+    max-height: 50%;
+    border-left: 3px solid var(--theme-accent-color);
 }
 
 .page_toc p.title {
@@ -122,6 +127,11 @@ h1 {
 .page_toc .active,
 .page_toc ul a:hover span {
     color: var(--theme-warning-color);
+}
+
+.page_toc .active {
+    border-left: none;
+    padding-left: unset;
 }
 
 

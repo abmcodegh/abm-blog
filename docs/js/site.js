@@ -138,7 +138,7 @@ window.$docsify = {
     toc: {
         scope: '.markdown-section',
         headings: ' h2, h3',
-        title: '目录',
+        title: '本文内容',
     },
     markdown: {
         renderer: {
