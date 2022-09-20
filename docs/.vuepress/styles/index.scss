@@ -1,0 +1,177 @@
+// place your custom styles here
+
+.sk-blue {
+  color: var(--theme-abm-color);
+}
+
+.sk-orange {
+  color: var(--theme-accent-color);
+}
+
+h1 {
+  display: block;
+  text-align: center;
+}
+
+.sidebar {
+  box-shadow: 5px 5px 5px #ccc;
+}
+
+// 首页封面样式
+.blog-hero {
+  background-blend-mode: normal;
+  background-color: rgb(83, 165, 232);
+  background-image: radial-gradient(
+    at center 115%,
+    rgba(255, 255, 255, 0.9),
+    transparent
+  );
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-size: cover;
+
+  img {
+    max-width: 400px;
+  }
+
+  h1 {
+    font-size: 1.5rem !important;
+    font-weight: 300;
+    color: var(--theme-warning-color);
+  }
+
+  .description {
+    font-size: 1rem !important;
+    color: #303a9a;
+  }
+
+  .slide-down-button .icon:first-child {
+    color: rgba($color: #303a9a, $alpha: 0.5) !important;
+  }
+
+  .slide-down-button .icon:nth-child(2) {
+    color: rgba($color: #303a9a, $alpha: 0.75) !important;
+  }
+}
+
+.theme-hope-content {
+  ol,
+  ul {
+    padding-left: 2rem;
+    li {
+      color: var(--theme-list-color);
+    }
+  }
+}
+
+// jmix icon
+.icon-jmix::before {
+  content: "\e";
+  background: url("/jmix-sign.png") no-repeat center center/cover;
+}
+
+.sidebar {
+  .icon {
+    color: var(--theme-accent-color);
+  }
+}
+
+#toc .toc-wrapper::before {
+  background: var(--theme-accent-color);
+}
+
+//----------------------- images --------------------------
+
+// 博客介绍页的 QR code
+.qr-code img {
+  width: 150px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 2px var(--theme-accent-color);
+}
+
+.theme-hope-content {
+  img {
+    cursor: pointer;
+  }
+  .center > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  @for $i from 1 through 10 {
+    $width: 10% * $i;
+    .size-#{$i} > img {
+      width: $width;
+    }
+  }
+  .shadow > img {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 7px 20px;
+  }
+  .radius > img {
+    border-radius: 0.5em;
+  }
+  .svg > img {
+    padding: 10px;
+  }
+}
+
+// ---------------- Table ---------------
+.abmTable {
+  margin: auto;
+  width: 50%;
+  display: table;
+  border: 2px solid var(--theme-accent-color);
+  th,
+  td {
+    text-align: center;
+  }
+}
+
+// --------download button-----------------
+.download-button {
+  height: 40px;
+  line-height: 40px;
+  padding: 0px 20px;
+  display: inline-block;
+  text-decoration: none !important;
+  box-shadow: 0px 2px 5px 1px #999;
+  border-radius: 10px;
+  background-color: var(--theme-color);
+  color: #fff !important;
+}
+
+.download-button:hover {
+  box-shadow: 0px 2px 8px 3px #999;
+}
+
+// ----------------- footer ---------------------
+.footer {
+  position: relative;
+}
+
+.footer #qrcode {
+  position: absolute;
+  max-width: 8%;
+  box-shadow: 0 2px 9px #f39435;
+  margin-top: -20px;
+}
+
+@media screen and (max-width: 800px) {
+  .theme-hope-content {
+    img {
+      width: 100%;
+    }
+  }
+  .abmTable {
+    margin: 0;
+    max-width: 100%;
+  }
+  .footer {
+    font-size: 0.7em;
+    text-align: right;
+  }
+
+  .footer #qrcode {
+    display: none;
+  }
+}
