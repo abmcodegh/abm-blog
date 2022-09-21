@@ -1,6 +1,7 @@
 ---
 author: 世开 Coding
 date: 2022-08-24
+title: RESTful API 的不同实现
 category:
   - Jmix
   - 技术文章

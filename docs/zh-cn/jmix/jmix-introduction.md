@@ -1,6 +1,7 @@
 ---
 date: 2022-08-11
 sticky: 100
+title: Jmix 少代码平台
 category:
   - Jmix
   - 少代码

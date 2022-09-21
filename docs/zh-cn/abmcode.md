@@ -19,5 +19,4 @@ footer: false
 
 微信公众号：
 
-
 ![ABMcode QR code](https://cdn.abmcode.com/_media/abmcode_qrcode.jpg) {.qr-code}

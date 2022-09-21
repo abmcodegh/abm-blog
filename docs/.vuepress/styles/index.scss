@@ -17,6 +17,13 @@ h1 {
   box-shadow: 5px 5px 5px #ccc;
 }
 
+//----------- nav bar ----------------
+.navbar {
+  span.site-name {
+    display: none;
+  }
+}
+
 // 首页封面样式
 .blog-hero {
   background-blend-mode: normal;

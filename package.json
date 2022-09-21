@@ -6,8 +6,9 @@
   "type": "module",
   "scripts": {
     "docs:build": "vuepress build docs",
-    "docs:clean-dev": "vuepress dev docs --clean-cache",
-    "docs:dev": "vuepress dev docs -p 8002"
+    "docs:clean-dev": "vuepress dev docs --clean-cache -p 8002",
+    "docs:dev": "vuepress dev docs -p 8002",
+    "help": "vuepress build --help"
   },
   "devDependencies": {
     "@vuepress/client": "2.0.0-beta.51",
