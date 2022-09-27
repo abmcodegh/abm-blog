@@ -4,10 +4,10 @@
   "description": "ABMcode's blog",
   "license": "MIT",
   "scripts": {
-    "docs:build": "vuepress build docs",
-    "docs:clean-dev": "vuepress dev docs --clean-cache -p 8002",
-    "docs:dev": "vuepress dev docs -p 8002",
-    "deploy": "node scripts/deploy.js"
+    "build": "vuepress build docs",
+    "dev:clean": "vuepress dev docs --clean-cache -p 8002",
+    "start": "vuepress dev docs -p 8002",
+    "deploy": "node scripts/deploy.js ./env.json"
   },
   "devDependencies": {
     "@vuepress/client": "2.0.0-beta.51",

@@ -3,6 +3,31 @@ const fs = require('fs');
 const { exit } = require("process");
 const readline = require("readline");
 
+var [, , ...args] = process.argv;
+
+if (args.length === 0) {
+    printUsage();
+    errExit(`没有带 env json 文件`);
+}
+
+const envFile = args[0];
+
+function printUsage() {
+    console.log(
+        `usage: node deploy.js <env json file>
+            env JSON 文件示例：
+            {
+                "dist": "dist build dir name",
+                "target": "target dir name",
+                "remote": {
+                  "user": "username",
+                  "host": "host ip",
+                  "dir": "remote dir to put the package tar"
+                }
+            }
+    `);
+}
+
 function appendTar(str) {
     return str + ".tar";
 }
@@ -24,7 +49,7 @@ function parseEnvFile(file) {
     }
 }
 
-var { dist, target, tarFile, remote } = parseEnvFile("./env.json");
+var { dist, target, tarFile, remote } = parseEnvFile(envFile);
 
 log.info({ dist, target, tarFile });
 log.info(remote);
@@ -39,7 +64,7 @@ if (!dist && !target) {
 
 if (fs.existsSync(dist)) {
     if (target !== dist && fs.existsSync(target)) {
-        fs.rmDirSync(target);
+        fs.rmSync(target, { recursive: true, force: true });
     }
 
     if (fs.existsSync(tarFile)) {

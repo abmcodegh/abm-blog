@@ -6,6 +6,10 @@ export default defineUserConfig({
 
   title: "世开 Coding",
 
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.ico' }]
+  ],
+
   dest: "./dist",
 
   locales: {
