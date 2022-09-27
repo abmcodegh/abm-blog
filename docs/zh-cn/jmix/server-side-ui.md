@@ -1,8 +1,18 @@
-![题图](https://blog.abmcode.com/zh-cn/jmix/_media/server-side-ui/title.png ":class=title-image")
+---
+author: 世开 Coding
+date: 2022-09-06
+category:
+  - Jmix
+  - 技术文章
+---
+
+Jmix 是一个全栈业务应用系统开发框架，通过集成 Vaadin 实现了服务端驱动开发 UI 的方法。
+
+<!-- more -->
+
+![题图](https://cdn.abmcode.com/zh-cn/jmix/_media/server-side-ui/title.png)  {.center .size-8 .radius .shadow}
 
 # 服务端驱动 Web UI 开发
-
-<p class="author">世开 Coding<span class="update-time">2022-09-06</span></p>
 
 现如今，作为一名全栈开发人员需要完成更多复杂的任务。曾几何时，情况并不是如此。这种演变有多种原因，比如，需要负责的事情越来越多（想想 DevSecOps）。另一个原因是技术栈中不同技术的框架和开发工具也变得越来越复杂。
 
@@ -38,7 +48,7 @@ Vaadin（更准确地说是 Vaadin Flow）是一组 Web 组件和 Java API。应
 
 我们看一个交互示例。Jmix “宠物诊所” 示例包含特定月份访问的日历视图：
 
-![宠物诊所示例](https://blog.abmcode.com/zh-cn/jmix/_media/server-side-ui/pet_clinic.png ":class=center-eighty-image")
+![宠物诊所示例](https://cdn.abmcode.com/zh-cn/jmix/_media/server-side-ui/pet_clinic.png) {.center .size-8}
 
 有两个按钮用于更改显示的月份。单击该按钮时，将执行以下 Java 代码，并使用上个月的访问数据刷新浏览器中的 UI：
 
@@ -63,7 +73,7 @@ public class VisitBrowse extends StandardLookup<Visit> {
 
 Vaadin 的交互过程如下：
 
-![Vaadin 交互过程](https://blog.abmcode.com/zh-cn/jmix/_media/server-side-ui/sequence_diagram.svg ":class=full-image-svg")
+![Vaadin 交互过程](https://cdn.abmcode.com/zh-cn/jmix/_media/server-side-ui/sequence_diagram.svg) {.center .svg .shadow}
 
 Vaadin 的 JavaScript 部分（Vaadin Client）处理浏览器上的按钮点击，并将请求委托给 Vaadin 组件的后端部分（Vaadin Server），后端负责查找上下文和当前用户会话。之后，Vaadin 将点击事件发送到服务端的 Java UI 代码。UI 代码负责更新日历并刷新数据。这是通过 Vaadin Java API 进行交互并更新 Vaadin 组件来实现的。最后，Vaadin Server 会选择需要更新的组件并将组件的新状态传输到浏览器中的 Vaadin Client。Client 会在浏览器中复制更新组件的请求，最后用户可以看到上个月的数据。
 
