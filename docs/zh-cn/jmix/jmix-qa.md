@@ -144,11 +144,12 @@ Jmix 许可价格请参考我们的[订阅计划和价格](https://www.jmix.cn/s
    3. 查看 [Jmix 在线示例](https://demo.jmix.io/sampler/)，并尝试从示例中复制代码至学习项目中，在自己的项目中运行并展示复制的示例。
 2. 进阶：
    1. 进一步了解 [Jmix Studio](https://docs.jmix.cn/jmix/studio/studio-ui.html) 的全部功能。
-   2. 学习 Jmix 的[安全机制](https://docs.jmix.cn/jmix/security/index.html)。
-   3. 了解 Jmix 开箱即用的[扩展组件](https://docs.jmix.cn/jmix/add-ons.html)，包括 BPM。
-   4. 了解 Jmix [架构](https://docs.jmix.cn/jmix/intro.html#architecture)，[模块和扩展](https://docs.jmix.cn/jmix/modularity/index.html)，并学习[开发 Jmix 扩展组件](https://blog.abmcode.com/#/zh-cn/jmix/jmix-new-dev-way)。
-   5. 了解 Jmix 的[主题和自定义主题](https://docs.jmix.cn/jmix/ui/themes.html)。
-   6. 了解 Jmix 支持的[部署方式](https://docs.jmix.cn/jmix/deployment/index.html)。
+   2. 根据开发文档中的 [快速入门](https://docs.jmix.cn/jmix/tutorial/index.html) 完成一个更加复杂的项目。
+   3. 学习 Jmix 的[安全机制](https://docs.jmix.cn/jmix/security/index.html)。
+   4. 了解 Jmix 开箱即用的[扩展组件](https://docs.jmix.cn/jmix/add-ons.html)，包括 BPM。
+   5. 了解 Jmix [架构](https://docs.jmix.cn/jmix/intro.html#architecture)，[模块和扩展](https://docs.jmix.cn/jmix/modularity/index.html)，并学习[开发 Jmix 扩展组件](https://blog.abmcode.com/#/zh-cn/jmix/jmix-new-dev-way)。
+   6. 了解 Jmix 的[主题和自定义主题](https://docs.jmix.cn/jmix/ui/themes.html)。
+   7. 了解 Jmix 支持的[部署方式](https://docs.jmix.cn/jmix/deployment/index.html)。
 3.  可选内容：
     1. 如果需要连接多个数据库，请参阅[数据库反向工程](https://docs.jmix.cn/jmix/studio/reverse-engineering.html)和[数据存储](https://docs.jmix.cn/jmix/data-model/data-stores.html)。
     2. 如果使用 JS 前端框架，Jmix 提供 [REST API](https://docs.jmix.cn/jmix/rest/index.html)。

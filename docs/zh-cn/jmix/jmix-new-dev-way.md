@@ -9,7 +9,7 @@ category:
 扩展组件的概念在使用 Jmix 框架开发中扮演着非常重要的角色。我们将在本文探索什么是扩展组件以及 Jmix Studio 在扩展组件开发和应用程序模块化方面能给开发者带来什么帮助。
 
 <!-- more -->
-https://cdn.abmcode.com/zh-cn/jmix/_media/jmix-new-dev-way/jmix_dev_addon.png
+
 ![扩展组件开发标题图](https://cdn.abmcode.com/zh-cn/jmix/_media/jmix-new-dev-way/jmix_dev_addon.png) {.center .size-8 .radius .shadow}
 
 # 扩展组件开发新体验

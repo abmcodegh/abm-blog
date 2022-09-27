@@ -1,5 +1,12 @@
 dist/
+blog/
+blog.tar
+
 node_modules/
+
 .private/
+
 docs/.vuepress/.cache/
 docs/.vuepress/.temp/
+
+env.json
