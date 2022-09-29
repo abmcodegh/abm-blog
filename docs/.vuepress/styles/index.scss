@@ -71,13 +71,11 @@ h1 {
   }
 }
 
-// jmix icon
-.icon-jmix::before {
-  content: "\e";
-  background: url("/jmix-sign.png") no-repeat center center/cover;
-}
-
 .sidebar {
+  // sidebar 中的图片图标
+  img {
+    width: 18px;
+  }
   .icon {
     color: var(--theme-accent-color);
   }

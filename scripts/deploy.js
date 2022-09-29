@@ -22,7 +22,8 @@ function printUsage() {
                 "remote": {
                   "user": "username",
                   "host": "host ip",
-                  "dir": "remote dir to put the package tar"
+                  "dir": "remote dir to put the package tar",
+                  "script": "remote cmd or script to be exec"
                 }
             }
     `);

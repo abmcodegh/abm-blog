@@ -4,12 +4,12 @@ export const zhSidebar = sidebar({
   "/": [
     {
       text: "简介",
-      icon: 'creative',
+      icon: 'info',
       link: '/zh-cn/abmcode'
     },
     {
       text: "Jmix",
-      icon: "jmix",
+      icon: "/jmix-sign.png",
       prefix: "/zh-cn/jmix/",
       children: [
         {
@@ -24,7 +24,7 @@ export const zhSidebar = sidebar({
         },
         {
           text: "技术文章",
-          icon: "light",
+          icon: "creative",
           collapsable: true,
           children: [
             {
@@ -48,16 +48,28 @@ export const zhSidebar = sidebar({
           text: "里程碑",
           collapsable: true,
           prefix: "/zh-cn/jmix/releases/",
-          icon: "strong",
+          icon: "ability",
           children: [
             {
               text: "Jmix 1.3",
-              icon: "article",
+              icon: "activity",
               link: "jmix-1.3"
             }
           ]
         }
       ]
     },
+    {
+      text: "行业视角",
+      icon: "mount",
+      prefix: "/zh-cn/industry",
+      children: [
+        {
+          text: "低代码平台 - 危险的赌注",
+          icon: "article",
+          link: "lcap"
+        },
+      ]
+    }
   ],
 });
