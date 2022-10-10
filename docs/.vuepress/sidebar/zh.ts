@@ -62,13 +62,18 @@ export const zhSidebar = sidebar({
     {
       text: "行业视角",
       icon: "mount",
-      prefix: "/zh-cn/industry",
+      prefix: "/zh-cn/industry/",
       children: [
         {
-          text: "低代码平台 - 危险的赌注",
+          text: "企业级开发平台的演进",
           icon: "article",
-          link: "lcap"
+          link: "rad-twenty-years"
         },
+        // {
+        //   text: "低代码平台 - 危险的赌注",
+        //   icon: "article",
+        //   link: "lcap-dangerous-bet"
+        // },
       ]
     }
   ],

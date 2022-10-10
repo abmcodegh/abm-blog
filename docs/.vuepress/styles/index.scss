@@ -13,6 +13,10 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  color: var(--theme-color);
+}
+
 .sidebar {
   box-shadow: 5px 5px 5px #ccc;
 }
@@ -59,6 +63,10 @@ h1 {
   .slide-down-button .icon:nth-child(2) {
     color: rgba($color: #303a9a, $alpha: 0.75) !important;
   }
+}
+
+.blog-info-list .blog-type-button .active {
+  color: #fff;
 }
 
 .theme-hope-content {
@@ -125,7 +133,7 @@ h1 {
   margin: auto;
   width: 50%;
   display: table;
-  border: 2px solid var(--theme-accent-color);
+  border: 2px solid var(--theme-color);
   th,
   td {
     text-align: center;
