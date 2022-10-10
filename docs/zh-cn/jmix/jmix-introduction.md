@@ -1,8 +1,25 @@
-![Jmix宣言标题图](_media/jmix-introduction/Jmix_Announcement.jpg ":class=title-image")
+---
+date: 2022-08-11
+sticky: 100
+title: Jmix 业务系统高效开发的少代码平台
+description: Jmix 是一个应用程序全生命周期的 Java 少代码快速开发平台。
+category:
+  - Jmix
+tag:
+  - 少代码
+head:
+  - - meta
+    - name: keywords
+      content: jmix,快速开发,少代码,低代码,企业级应用开发,Java 快速开发框架,流行 Java 框架
+---
 
-# [Jmix](https://www.jmix.cn) - 业务系统高效开发的新方式
+_[Jmix](https://www.jmix.cn) 是一个覆盖应用程序全生命周期的少代码快速开发平台。_
 
-<p class="author">世开 Coding<span class="update-time">2022-08-11</span></p>
+<!-- more -->
+
+![Jmix宣言标题图](https://cdn.abmcode.com/zh-cn/jmix/_media/jmix-introduction/Jmix_Announcement.jpg) {.center .size-8 .radius .shadow}
+
+<!-- # Jmix - 业务系统高效开发的少代码平台 -->
 
 企业在数字化转型的过程中，都面临将现有的业务流程进行“软件化”的过程。然而，在我们的印象中，通常会觉得针对业务系统的软件开发不是特别高效。这背后有很多原因，从开发角度看，有一个主要的原因是软件开发者缺乏合适的工具。
 

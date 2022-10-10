@@ -1,6 +1,28 @@
-![rest api](_media/jmix-rest-diff-ways/jmix-rest-api.png ":class=title-image")
+---
+author: 世开 Coding
+date: 2022-08-24
+title: Jmix RESTful API 的不同实现
+description: Jmix 快速开发平台 REST API 的不同实现。
+category:
+  - Jmix
+tag:
+  - 技术
+head:
+  - - meta
+    - name: keywords
+      content: jmix,快速开发,少代码,低代码,企业级应用开发,Java 快速开发框架,流行 Java 框架,REST API
+---
 
-# Jmix 中 REST API 的两种实现
+_很多应用是采取前后端分离的方式进行开发。这种模式下，对前端的选择相对灵活，Jmix 的一种典型应用场景就是作为这种类型应用程序的高级别管理 UI 和后端。为此，Jmix 提供了强大的通用 REST API 功能。_
+
+<!-- more -->
+
+
+![rest api](https://cdn.abmcode.com/zh-cn/jmix/_media/jmix-rest-diff-ways/jmix-rest-api.png) {.center .size-8 .radius .shadow}
+
+<!-- # Jmix 中 REST API 的两种实现 -->
+
+你知道吗，在 Jmix 中，REST API 有两种实现方式！
 
 <p class="author">世开 Coding<span class="update-time">2022-08-24</span></p>
 

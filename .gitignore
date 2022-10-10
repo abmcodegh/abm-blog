@@ -1,2 +1,8 @@
 .private
 test.md
+node_modules
+
+blog**
+.vuepress
+
+env.json

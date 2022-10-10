@@ -1,8 +1,25 @@
-![题图](https://blog.abmcode.com/zh-cn/jmix/_media/server-side-ui/title.png ":class=title-image")
+---
+author: 世开 Coding
+date: 2022-09-06
+title: 服务端驱动 Web UI 开发
+description: Jmix 快速开发平台服务端驱动 Web UI 开发
+category:
+  - Jmix
+tag:
+  - 技术
+head:
+  - - meta
+    - name: keywords
+      content: jmix,快速开发,少代码,低代码,企业级应用开发,Java 快速开发框架,流行 Java 框架,服务端 UI
+---
 
-# 服务端驱动 Web UI 开发
+_Jmix 是一个全栈业务应用系统开发框架，通过集成 Vaadin 实现了服务端驱动开发 UI 的方法。_
 
-<p class="author">世开 Coding<span class="update-time">2022-09-06</span></p>
+<!-- more -->
+
+![题图](https://cdn.abmcode.com/zh-cn/jmix/_media/server-side-ui/title.png)  {.center .size-8 .radius .shadow}
+
+<!-- # 服务端驱动 Web UI 开发 -->
 
 现如今，作为一名全栈开发人员需要完成更多复杂的任务。曾几何时，情况并不是如此。这种演变有多种原因，比如，需要负责的事情越来越多（想想 DevSecOps）。另一个原因是技术栈中不同技术的框架和开发工具也变得越来越复杂。
 

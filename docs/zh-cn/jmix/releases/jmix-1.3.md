@@ -1,6 +1,23 @@
-![Jmix1.3 发布](_media/jmix-1.3/jmix_1.3.png ":class=title-image")
+---
+author: 世开 Coding
+date: 2022-08-09
+title: Jmix 1.3 发布
+description: Jmix 1.3 发布，快速开发平台，支持新 UI。
+category:
+  - Jmix
+tag:
+  - 里程碑
+head:
+  - - meta
+    - name: keywords
+      content: jmix,快速开发,少代码,低代码,企业级应用开发,Java 快速开发框架,流行 Java 框架
+---
 
-# Jmix 1.3 版本发布
+_最近我们发布了 Jmix 的一个新功能版本 1.3.0。这可以说是一个里程碑版本，其中包含 Vaadin Flow UI 和一键云部署的功能预览。_
+
+<!-- more -->
+
+<!-- # Jmix 1.3 版本发布 -->
 
 <p class="author">世开 Coding<span class="update-time">2022-08-09</span></p>
 
