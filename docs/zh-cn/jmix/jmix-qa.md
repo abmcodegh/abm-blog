@@ -1,15 +1,23 @@
 ---
 author: 世开 Coding
 date: 2022-08-07
+title: Jmix FAQ
+description: Jmix 少代码平台的常见问题
 category:
   - Jmix
+tag:
+  - FAQ
+head:
+  - - meta
+    - name: keywords
+      content: jmix,快速开发,少代码,低代码,企业级应用开发,Java 快速开发框架,流行 Java 框架
 ---
 
-这里我们整理了关于 Jmix 适用场景、许可、支付、培训等大家常常咨询的问题的答案。
+_这里我们整理了关于 Jmix 适用场景、许可、支付、培训等大家常常咨询的问题的答案。_
 
 <!-- more -->
 
-# Jmix FAQ
+<!-- # Jmix FAQ -->
 
 ## 常见问题
 

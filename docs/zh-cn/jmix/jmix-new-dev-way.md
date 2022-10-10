@@ -1,18 +1,25 @@
 ---
 author: 世开 Coding
 date: 2022-08-04
+title: Jmix 扩展组件开发新体验
+description: Jmix 扩展组件的快速开发方式
 category:
   - Jmix
-  - 技术文章
+tag:
+  - 技术
+head:
+  - - meta
+    - name: keywords
+      content: jmix,快速开发,少代码,低代码,企业级应用开发,Java 快速开发框架,流行 Java 框架,扩展组件
 ---
 
-扩展组件的概念在使用 Jmix 框架开发中扮演着非常重要的角色。我们将在本文探索什么是扩展组件以及 Jmix Studio 在扩展组件开发和应用程序模块化方面能给开发者带来什么帮助。
+_扩展组件的概念在使用 Jmix 框架开发中扮演着非常重要的角色。我们将在本文探索什么是扩展组件以及 Jmix Studio 在扩展组件开发和应用程序模块化方面能给开发者带来什么帮助。_
 
 <!-- more -->
 
 ![扩展组件开发标题图](https://cdn.abmcode.com/zh-cn/jmix/_media/jmix-new-dev-way/jmix_dev_addon.png) {.center .size-8 .radius .shadow}
 
-# 扩展组件开发新体验
+<!-- # 扩展组件开发新体验 -->
 
 扩展组件的概念在使用 Jmix 框架开发中扮演着非常重要的角色。我们将在本文探索什么是扩展组件以及 Jmix Studio 在扩展组件开发和应用程序模块化方面能给开发者带来什么帮助。
 

@@ -1,5 +1,11 @@
 ---
 article: false
+title: Jmix 介绍
+description: Jmix 快速开发平台简介
+head:
+  - - meta
+    - name: keywords
+      content: jmix,快速开发,少代码,低代码,企业级应用开发,Java 快速开发框架,流行 Java 框架
 ---
 
 # Jmix
