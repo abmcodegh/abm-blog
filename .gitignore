@@ -9,4 +9,4 @@ node_modules/
 docs/.vuepress/.cache/
 docs/.vuepress/.temp/
 
-env.json
+env-*.json
