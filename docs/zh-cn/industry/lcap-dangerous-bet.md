@@ -25,7 +25,7 @@ _低代码平台在开发原型级别的应用上，无所匹敌，但也只能�
 
 ![Gartner 低代码竞争力评价](https://cdn.abmcode.com/zh-cn/industry/_media/lcap/gartner_lc.png) {.center .size-6 .shadow}
 
-在向企业高管营销时，LCAP 们会号称业务人员（也有说市民开发者，非专业开发者）就能构建企业级的解决方案。那么，后来专业开发人员都失业了吗？我们知道并没有，反而几年后 Mendix 推出了面向开发者的版本：
+在向企业高管营销时，LCAP 们会号称业务人员（也有说市民开发者，非专业开发者）就能构建企业级的解决方案。那么，后来专业开发人员都失业了吗？我们知道并没有，反而几年后 Mendix 推出了面向专业开发者的版本：
 
 ![Mendix for developers](https://cdn.abmcode.com/zh-cn/industry/_media/lcap/mendix_pro_dev.png) {.center .size-8 .shadow}
 
@@ -97,7 +97,7 @@ Mendix 的目标客户是大型企业，所以“扩展性”在他们的市场�
 
 软件开发方面，根据使用工具的不同，可以分为三个等级：传统开发、使用少代码平台开发、使用低代码甚至零代码平台开发。这几个选择的比较如下：
 
-![开发工具比较](https://cdn.abmcode.com/zh-cn/industry/_media/rad/dev_compare.png) {.center .size-8 .shadow}
+![开发工具比较](https://cdn.abmcode.com/zh-cn/industry/_media/lcap/dev_compare.png) {.center .size-8 .shadow}
 
 我们可以看到，传统开发的优势是自主研发度和自由度非常高，并可以实现任何想要的功能，但是代价就是开发速度慢。而低代码（零代码）平台，在开发速度（T2M）上无人能敌，缺乏的是系统的灵活度和自主度。少代码平台则兼顾了开发效率、自主度和灵活度。以 [Jmix](https://www.jmix.cn) 为例，构建在开源的 Spring Boot 之上，结合 IntelliJ IDEA 提供快速的可视化开发工具，并无缝集成扩展组件提供开箱即用的功能。对于开发人员而言，这类平台可能是 LCAP 的最接近的替代方案，同时仍然提供灵活性和便捷的开发过程。
 
