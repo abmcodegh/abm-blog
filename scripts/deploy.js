@@ -113,7 +113,7 @@ function deploy(remote, tar) {
                 const lower = choice.toLowerCase();
                 if (lower === "y" || lower === "yes" || lower === "ye") {
                     // 上传文件至指定目录。
-                    runCmdSync(`scp ${tarFile} ${remote.user}@${remote.host}:${remote.dir}`);
+                    runCmdSync(`scp ${tar.tarFile} ${remote.user}@${remote.host}:${remote.dir}`);
                 }
 
                 runRemoteCmd(remote, `cd ${remote.dir}; tar xf ${tar.tarFile}`);

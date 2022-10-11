@@ -5,4 +5,4 @@ node_modules
 blog**
 .vuepress
 
-env.json
+env-*.json
