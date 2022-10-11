@@ -5,6 +5,7 @@ title: 北京世开科技有限公司
 description: “世开 Coding” 博客是北京世开科技有限公司的技术博客。
 footer: false
 image: https://cdn.abmcode.com/_media/abmcode_qrcode.jpg
+comment: false
 head:
   - - meta
     - name: keywords
