@@ -85,10 +85,10 @@ function runRemoteCmd(remote, defaultCmd = undefined) {
     var cmd;
     if (remote.script) {
         // 如果配置了远端脚本，执行远端脚本进行部署
-        cmd = `ssh ${remote.user}@${remote.host} "${remote.script}"`;
+        cmd = `ssh ${remote.user}@${remote.host} "cd ${remote.dir}; ${remote.script}; exit;"`;
     } else if (defaultCmd) {
         // 否则如果配置了默认命令，则执行默认命令。
-        cmd = `ssh ${remote.user}@${remote.host} "${defaultCmd}"`;
+        cmd = `ssh ${remote.user}@${remote.host} "${defaultCmd};exit;"`;
     }
 
     if (cmd) {
