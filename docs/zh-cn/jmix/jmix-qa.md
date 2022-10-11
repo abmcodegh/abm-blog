@@ -59,7 +59,7 @@ Jmix 是为专业开发者打造的产品，来源于开发者，服务于开发
 - [程序示例](https://www.jmix.cn/learn/live-demo/)，其中[在线示例](https://demo.jmix.io/sampler)网站提供了源码，可以直接复制到项目中。
 - [社区论坛](https://forum.jmix.cn/)，这里是我们的知识积累宝库，可以搜索你要问的技术问题，或者提出新的问题，我们会有工作人员免费解答。
 
-**收费服务**包括[培训](#培训)和技术外包、技术咨询服务。其中，技术外包按工作量估算，技术咨询按小时预付费购买，服务提供内容主要如下：
+**收费服务**包括[培训](#training)和技术外包、技术咨询服务。其中，技术外包按工作量估算，技术咨询按小时预付费购买，服务提供内容主要如下：
 
 - 项目技术开发外包
 - 为您的项目实现自定义的平台功能
@@ -118,7 +118,7 @@ classPlugin:{"target":"class","value":"table-wrapper","idx":0,"class":"abmTable 
 
 我们为公司提供**线上培训**（腾讯会议），培训内容包括框架使用基本培训、背景知识培训、如何提高开发效率以及定制需求的培训。培训内容可根据特定的项目内容，特定的领域做定制化。培训具体费用根据人数、培训内容、培训时长有不同定价。请参考下面的培训目录：
 
-<a class="download-button" href="zh-cn/jmix/_media/jmix-qa/Jmix_training_catalog.pdf" download>下载课程目录</a>
+<a class="download-button" href="https://cdn.abmcode.com/zh-cn/jmix/_media/jmix-qa/Jmix_training_catalog.pdf" target="_blank" download>下载课程目录</a>
 
 如需咨询培训，请发邮件至 <a href="mailto:admin@abmcode.com?subject=Jmix培训咨询">admin@abmcode.com</a> 并提供下列内容：
 
