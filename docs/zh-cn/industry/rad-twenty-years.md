@@ -2,10 +2,15 @@
 author: 世开 Coding
 date: 2022-09-30
 title: 企业级开发平台的演进
+description: 企业级快速开发平台和低代码开发平台是什么关系
 category:
   - 行业视角
 tag:
   - RAD
+head:
+  - - meta
+    - name: keywords
+      content: 快速开发平台,低代码,企业级开发,开发工具
 ---
 
 _RAD 和 LCDP 分别是什么？RAD 和 LCDP 又是什么关系？_
