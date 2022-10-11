@@ -7,7 +7,7 @@
     "build": "vuepress build docs",
     "dev:clean": "vuepress dev docs --clean-cache -p 8002",
     "start": "vuepress dev docs -p 8002",
-    "deploy": "node scripts/deploy.js ./env.json"
+    "deploy": "node scripts/deploy.js ./env-vuepress.json"
   },
   "devDependencies": {
     "@vuepress/client": "2.0.0-beta.51",
