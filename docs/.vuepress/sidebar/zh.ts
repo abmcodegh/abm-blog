@@ -69,11 +69,11 @@ export const zhSidebar = sidebar({
           icon: "article",
           link: "rad-twenty-years"
         },
-        // {
-        //   text: "低代码平台 - 危险的赌注",
-        //   icon: "article",
-        //   link: "lcap-dangerous-bet"
-        // },
+        {
+          text: "低代码平台 - 危险的赌注",
+          icon: "article",
+          link: "lcap-dangerous-bet"
+        },
       ]
     }
   ],
