@@ -2,6 +2,7 @@
   "name": "abm-blog",
   "version": "1.0.0",
   "scripts": {
-    "start": "docsify serve --port 3001 ./docs"
+    "start": "docsify serve --port 3001 ./docs",
+    "deploy": "node scripts/deploy.js ./env.json"
   }
 }
