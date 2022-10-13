@@ -74,6 +74,11 @@ export const zhSidebar = sidebar({
           icon: "article",
           link: "lcap-dangerous-bet"
         },
+        {
+          text: "快速应用程序开发",
+          icon: "article",
+          link: "what-is-rad"
+        },
       ]
     }
   ],
