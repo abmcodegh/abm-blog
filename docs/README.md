@@ -2,13 +2,18 @@
 home: true
 layout: Blog
 icon: home
-title: 博客主页
+title: 世开 Coding
 heroImage: /Coding_512x100.png
 heroText: 知客户 懂产品 爱技术 创价值
 heroFullScreen: true
-bgImage: false
 tagline: 我们专注于企业级开发的效率工具<br>提供现代企业数字化解决方案
 footer: false
+bgImage: false
+description: 北京世开科技有限公司博客，我们关注快速开发框架少代码平台等提升开发者效率的工具
+head:
+  - - meta
+    - name: keywords
+      content: 快速开发,少代码,低代码,企业级应用开发,Java 快速开发框架,流行 Java 框架,jmix
 # projects:
 #   - icon: project
 #     name: 博客介绍
