@@ -63,6 +63,7 @@ export const zhSidebar = sidebar({
       text: "行业视角",
       icon: "mount",
       prefix: "/zh-cn/industry/",
+      collapsable: true,
       children: [
         {
           text: "企业级开发平台的演进",
@@ -78,6 +79,11 @@ export const zhSidebar = sidebar({
           text: "快速应用程序开发",
           icon: "article",
           link: "what-is-rad"
+        },
+        {
+          text: "应用系统现代化权威指南",
+          icon: "article",
+          link: "mdn"
         },
       ]
     }

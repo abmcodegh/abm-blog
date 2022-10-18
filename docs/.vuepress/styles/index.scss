@@ -106,6 +106,19 @@ h2 {
   box-shadow: 0px 0px 10px 2px var(--theme-accent-color);
 }
 
+@mixin floatingImage {
+  @for $i from 1 through 10 {
+    $width: 10% * $i;
+    &.size-#{$i} {
+      width: $width;
+    }
+  }
+
+  & > img {
+    width: 85%;
+  }
+}
+
 .theme-hope-content {
   img {
     cursor: pointer;
@@ -129,6 +142,18 @@ h2 {
   }
   .svg > img {
     padding: 10px;
+  }
+
+  .float-l {
+    float: left;
+
+    @include floatingImage;
+  }
+
+  .float-r {
+    float: right;
+
+    @include floatingImage;
   }
 }
 
