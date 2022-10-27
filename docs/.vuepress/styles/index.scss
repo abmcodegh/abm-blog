@@ -87,6 +87,9 @@ h2 {
   .icon {
     color: var(--theme-accent-color);
   }
+  ul {
+    list-style-type: none;
+  }
 }
 
 #toc {

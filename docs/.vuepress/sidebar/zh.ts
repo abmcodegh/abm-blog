@@ -4,12 +4,13 @@ export const zhSidebar = sidebar({
   "/": [
     {
       text: "简介",
-      icon: 'info',
+      icon: '/logo32.png',
       link: '/zh-cn/abmcode'
     },
     {
       text: "Jmix",
       icon: "/jmix-sign.png",
+      collapsable: true,
       prefix: "/zh-cn/jmix/",
       children: [
         {
@@ -56,6 +57,19 @@ export const zhSidebar = sidebar({
               link: "jmix-1.3"
             }
           ]
+        }
+      ]
+    },
+    {
+      text: "Angular",
+      icon: "/angular.svg",
+      prefix: "/zh-cn/ng/",
+      collapsable: true,
+      children: [
+        {
+          text: "Universal & SEO",
+          icon: "/angular_universal.png",
+          link: "universal"
         }
       ]
     },

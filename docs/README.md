@@ -14,16 +14,16 @@ head:
   - - meta
     - name: keywords
       content: 快速开发,少代码,低代码,企业级应用开发,Java 快速开发框架,流行 Java 框架,jmix
-# projects:
-#   - icon: project
-#     name: 博客介绍
-#     desc: 
-#     link: https://你的项目链接
+projects:
+  - icon: /logo128.png
+    name: 世开
+    desc: 北京世开科技有限公司
+    link: https://www.abmcode.com
 
-#   - icon: link
-#     name: 链接名称
-#     desc: 链接详细描述
-#     link: https://链接地址
+  - icon: /jmix-sign.png
+    name: Jmix
+    desc: Jmix 少代码平台
+    link: https://www.jmix.cn
 
 #   - icon: book
 #     name: 书籍名称
