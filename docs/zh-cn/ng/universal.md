@@ -4,9 +4,9 @@ date: 2022-10-24
 title: Angular SSR 探究
 description: 通过 Angular Universal 实现 SSR
 category:
-  - 技术文章
-tag:
   - Angular
+tag:
+  - 技术
 head:
   - - meta
     - name: keywords
@@ -18,7 +18,7 @@ _你知道 Angular Universal 吗？可以帮助网站提供更好的 SEO 支持�
 <!-- more -->
 
 
-![题图](./_media/universal/ngu_cover.png) {.center .size-8 .radius .shadow}
+![题图](https://cdn.abmcode.com/zh-cn/ng/_media/universal/ngu_cover.png) {.center .size-8 .radius .shadow}
 
 <!-- # 大标题 -->
 

@@ -161,7 +161,7 @@ jmix.rest.authenticatedUrlPatterns=/products/**
 
 ![Postman 调用控制器 API](https://cdn.abmcode.com/zh-cn/jmix/_media/jmix-rest-diff-ways/postman_controller_call.png) {.center .size-8 .shadow}
 
-## 结论
+## 结语
 
 通过上面的代码，我们可以看到，在 Jmix 中使用两种类型的 REST API 其实都不复杂，但是，也是各有优势：
 
