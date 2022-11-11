@@ -274,7 +274,7 @@ export class AbmHomeComponent implements OnInit {
 
 ```
 
-## 总结
+## 结语
 
 Angular 作为 SPA 企业级开发框架，在模块化、团队合作开发方面有自己独到的优势。在进化到 v14 这个版本中提供了不依赖 `NgModule` 的独立 `Component` 功能，进一步简化了模块化的架构。
 

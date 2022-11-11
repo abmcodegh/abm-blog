@@ -99,6 +99,11 @@ export const zhSidebar = sidebar({
           icon: "article",
           link: "mdn"
         },
+        {
+          text: "保险业自动化",
+          icon: "article",
+          link: "insurance"
+        },
       ]
     }
   ],

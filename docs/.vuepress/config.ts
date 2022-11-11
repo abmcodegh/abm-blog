@@ -1,5 +1,10 @@
+import { registerComponentsPlugin } from '@vuepress/plugin-register-components';
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
+
+import { getDirname, path } from '@vuepress/utils';
+
+const __dirname = getDirname(import.meta.url);
 
 export default defineUserConfig({
   base: "/",
@@ -20,6 +25,13 @@ export default defineUserConfig({
   },
 
   theme,
+  plugins: [
+    registerComponentsPlugin({
+      components: {
+        AbmCardList: path.resolve(__dirname, './components/AbmCardList.vue'),
+      }
+    }) as any,
+  ],
 
   shouldPrefetch: false,
 });
