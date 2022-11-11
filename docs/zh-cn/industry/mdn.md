@@ -143,9 +143,17 @@ _老旧系统在业务运行中仍然承担了很多的工作。但是当这些�
 
 ![jmix 少代码平台](https://cdn.abmcode.com/zh-cn/industry/_media/mdn/mdn_jmix.png) {.center .size-5 .float-r}
 
-Jmix 是一个开源[应用程序开发平台](https://www.jmix.cn)，可以在“完全重写”的现代化改造方案中显著减少所需的成本和时间。Jmix 是一个高效的开发平台，对开发者非常友好，并无需为应用系统支付高昂的许可费用。Jmix 支持在已有数据库上直接运行，这个功能在“并行”的逐步替换方案中十分有用。很多团队和业务系统已经从传统的 Delphi、MS Lightswitch、FoxPro、Oracle Forms 等平台迁移至 Jmix。
+Jmix 是一个开源[应用程序开发平台](https://www.jmix.cn)，可以在“完全重写”的现代化改造方案中显著减少所需的成本和时间。
 
-![jmix 少代码平台2](https://cdn.abmcode.com/zh-cn/industry/_media/mdn/mdn_jmix_spe.png) {.center .radius .shadow}
+Jmix 是面向开发人员的少代码高效平台，无需为交付的应用系统支付高昂的许可费用。
+
+Jmix 支持在已有数据库上直接运行，在“并行”的逐步替换方案中通过该功能提供完美支持。
+
+很多团队和业务系统已经从传统的 Delphi、MS Lightswitch、FoxPro、Oracle Forms 等平台迁移至 Jmix。
+
+### Jmix 通用高生产力应用平台兼顾了低代码平台的开发速度和传统开发的灵活性 {.center-text}
+
+<AbmCardList title="自然贴合|未来验证|易上手|高效率|云支持|成本效益" content="使用以数据为中心的开发方法和企业级 UI 组件实现企业应用系统的现代化|基于数百万开发者信任的主流开源技术架构|使用 Java 或 Kotlin 作为唯一开发语言，并提供可视化开发工具帮助新人入门|以创纪录的时间开发大型应用系统，支持大量的数据模型和业务逻辑|支持任何云环境部署或私有部署，不依赖供应商的基础设施|基于 Jmix 构建的应用系统在交付和使用时，无需支付任何使用费"/>
 
 更多有关 Jmix 的功能，可以访问 [Jmix 中国](https://www.jmix.cn) 官网进行了解。
 

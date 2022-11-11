@@ -12,7 +12,6 @@ export default {
   props: ["title", "content"],
 
   data() {
-    console.log(this.getItems());
     return {
       items: this.getItems(),
     };
@@ -37,6 +36,7 @@ export default {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 24px 24px;
   gap: 24px 24px;
+  margin: 2rem auto;
 }
 .card {
   border: solid 1px var(--theme-color);

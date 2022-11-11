@@ -24,6 +24,8 @@ _你知道 Angular Universal 吗？可以帮助网站提供更好的 SEO 支持�
 
 一般来说，普通的 Angular 应用是在 _浏览器_ 中运行，在 DOM 中对页面进行渲染，并与用户进行交互。而 Angular Universal 是在 _服务端_ 进行渲染（Server-Side Rendering，SSR），生成静态的应用程序网页，然后在客户端展示，好处是可以更快地进行渲染，在提供完整的交互之前就可以为用户提供内容展示。
 
+我们的主页 https://www.abmcode.com 是使用 Angular 开发的，最近我们为了给搜索引擎提供更好的 SEO，把它改成服务端渲染了。Angular 的 SSR 有一些编译和构建时的设置，甚至需要一些代码的改动。下面看看我们是怎么做的吧！
+
 ::: info 提示
 本文是在 Angular 14 环境中完成，有些内容对于新的 Angular 版本可能并不适用，请参考 Angular 官方文档。
 :::
