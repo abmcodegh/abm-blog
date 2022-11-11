@@ -1,16 +1,20 @@
 import { navbar } from "vuepress-theme-hope";
 
 export const zhNavbar = navbar([
-  "/",
   // { text: "演示", icon: "discover", link: "/zh/demo/" },
   {
-    text: "分类",
-    icon: "edit",
+    text: "公司主页",
+    icon: "home",
+    link: "https://www.abmcode.com"
+  },
+  {
+    text: "博客分类",
+    icon: "software",
     prefix: "/zh-cn/",
     children: [
       {
         text: "Jmix",
-        icon: "edit",
+        icon: "/jmix-sign.png",
         // prefix: "jmix/",
         link: "jmix/jmix",
         // children: [
@@ -46,8 +50,14 @@ export const zhNavbar = navbar([
     ],
   },
   {
+    text: "Jmix 中文官网",
+    icon: "/jmix-sign.png",
+    link: "https://www.jmix.cn"
+  },
+  {
     text: "Jmix FAQ",
     icon: "question",
     link: "/zh-cn/jmix/jmix-qa",
   },
+
 ]);

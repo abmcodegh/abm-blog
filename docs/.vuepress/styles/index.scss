@@ -26,6 +26,13 @@ h2 {
   span.site-name {
     display: none;
   }
+  .nav-item {
+    // 导航栏 image 图标
+    a > img {
+      max-width: 14px;
+      vertical-align: middle;
+    }
+  }
 }
 
 // 首页封面样式

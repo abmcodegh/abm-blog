@@ -19,6 +19,8 @@ export default hopeTheme({
     red: "#fb0067",
   },
 
+  fullscreen: true,
+
   hostname: "https://blog.abmcode.com",
 
   author: {
