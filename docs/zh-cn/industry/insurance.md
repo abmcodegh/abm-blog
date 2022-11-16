@@ -10,7 +10,7 @@ tag:
 head:
   - - meta
     - name: keywords
-      content: jmix,低代码,保险,数字化,BPM,业务流
+      content: jmix,低代码,保险,自动化,数字化,BPM,业务流
 ---
 
 _保险行业为什么需要进行数字化和自动化？数字化又有什么优势和困难？_

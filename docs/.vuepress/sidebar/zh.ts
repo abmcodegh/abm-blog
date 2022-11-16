@@ -52,10 +52,15 @@ export const zhSidebar = sidebar({
           icon: "ability",
           children: [
             {
+              text: "Jmix 1.4",
+              icon: "activity",
+              link: "jmix-1.4"
+            },
+            {
               text: "Jmix 1.3",
               icon: "activity",
               link: "jmix-1.3"
-            }
+            },
           ]
         }
       ]
@@ -104,6 +109,11 @@ export const zhSidebar = sidebar({
           icon: "article",
           link: "insurance"
         },
+        // {
+        //   text: "物流自动化",
+        //   icon: "article",
+        //   link: "logistics"
+        // },
       ]
     }
   ],

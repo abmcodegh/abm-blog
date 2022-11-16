@@ -77,7 +77,7 @@ ng add @nguniversal/express-engine
 
 ## 替换浏览器 API
 
-由于 Universal 应用不是在浏览器中执行，因此一些浏览器的 API 或功能将不可用。例如，服务端应用是无法使用浏览器中的全局对象 `window`、`document`，`navigator`，`location`。
+由于 Universal 应用不是在浏览器中执行，因此一些浏览器的 API 或功能将不可用。例如，服务端应用是无法使用浏览器中的全局对象 `window`、`document`、`navigator`、`location`。
 
 Angular 提供了两个可注入对象，用于在服务端替换对等的对象：`Location` 和 `DOCUMENT`。
 

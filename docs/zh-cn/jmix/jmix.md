@@ -28,4 +28,5 @@ head:
    2. [REST API 的两种实现](jmix-rest-diff-ways.md) - Jmix 中 RESTful API 的两种开发方式
    3. [服务端驱动 Web UI 开发](server-side-ui.md) - Jmix 中的后端驱动 UI 开发方式
 4. 里程碑：
-   1. [Jmix 1.3](./releases/jmix-1.3.md)
+   1. [Jmix 1.4](./releases/jmix-1.4.md)
+   2. [Jmix 1.3](./releases/jmix-1.3.md)
