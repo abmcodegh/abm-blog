@@ -93,6 +93,7 @@ h2 {
   }
   .icon {
     color: var(--theme-accent-color);
+    margin-right: 0.5rem;
   }
   ul {
     list-style-type: none;
@@ -102,9 +103,9 @@ h2 {
 #toc {
   left: calc(100% + 3rem) !important;
 
-  .toc-wrapper::before {
-    background: var(--theme-accent-color);
-  }
+  // .toc-wrapper::before {
+  //   background: var(--theme-accent-color);
+  // }
 }
 
 //----------------------- images --------------------------
@@ -209,8 +210,9 @@ h2 {
 .footer #qrcode {
   position: absolute;
   max-width: 8%;
-  box-shadow: 0 2px 9px #f39435;
+  box-shadow: 0 2px 9px var(--theme-color);
   margin-top: -20px;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 800px) {

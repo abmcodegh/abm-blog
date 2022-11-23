@@ -94,6 +94,9 @@ export default hopeTheme({
     blog: {
       autoExcerpt: true,
     },
+    photoSwipe: {
+      selector: ".theme-hope-content :not(a) > img,.footer img"
+    },
     // seo: {
     //   autoDescription: true
     // },

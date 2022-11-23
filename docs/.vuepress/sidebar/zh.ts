@@ -115,6 +115,19 @@ export const zhSidebar = sidebar({
         //   link: "logistics"
         // },
       ]
+    },
+    {
+      text: "信息前沿",
+      icon: "update",
+      prefix: "/zh-cn/tech/",
+      collapsable: true,
+      children: [
+        {
+          text: "JDK 17",
+          icon: "article",
+          link: "jdk17"
+        }
+      ]
     }
   ],
 });
