@@ -13,12 +13,12 @@ head:
       content: jmix,快速开发,少代码,低代码,企业级应用开发,Java 快速开发框架,流行 Java 框架
 ---
 
-_还在用 JDK 8 吗？Spring 已经推荐使用 JDK 17 了，看看新的 JDK 都有什么提升吧。_
+_还在用 JDK 8 吗？Spring 已经推荐使用 JDK 17，是时候考虑升级了_
 
 <!-- more -->
 
 
-![题图](./_media/jdk17/jdk17_cover.png) {.center .size-8 .radius .shadow}
+![题图](https://cdn.abmcode.com/zh-cn/tech/_media/jdk17/jdk17_cover.png) {.center .size-8 .radius .shadow}
 
 <!-- # 大标题 -->
 
@@ -32,7 +32,7 @@ Spring，作为 Java EE 的事实规范，在2022年11月16日发布了最新的
 
 下表是 [Oracle](https://www.oracle.com/java/technologies/java-se-support-roadmap.html) 官方提供的 JDK 支持计划：
 
-![Oracle JDK 支持计划](./_media/jdk17/oracle_jdk_support.png) {.center .size-9 .shadow}
+![Oracle JDK 支持计划](https://cdn.abmcode.com/zh-cn/tech/_media/jdk17/oracle_jdk_support.png) {.center .size-9 .shadow}
 
 那为什么是 JDK 17 呢？首先，在 JDK 8 之后只有 JDK 11 和 17 是 LTS（长期维护）版本，而实际上 11 又被大家公认为是过渡版本，对于 JDK 17，Oracle 官宣会提供支持到 2029 年，这给了业界一个相当长的期许，终于可以考虑替换已经诞生 8 年且在2019年1月已经[停止公开更新](https://blogs.oracle.com/java/post/end-of-public-updates-is-a-process-not-an-event)的 JDK 8 了。
 
@@ -264,23 +264,23 @@ JDK 17 目前支持的垃圾收集器有：
 
 ### 吞吐量
 
-![吞吐量测试结果](./_media/jdk17/throughput.png) {.center .size-8 .shadow}
+![吞吐量测试结果](https://cdn.abmcode.com/zh-cn/tech/_media/jdk17/throughput.png) {.center .size-8 .shadow}
 
 测试结果中，数值越高表示性能越好，可以看到，JDK 17 中，ZGC 的性能提升了 20%，Parallel GC 和 G1 也分别有超过 10% 的提升。
 
 ### 延迟
 
-![延迟测试结果](./_media/jdk17/latency.png) {.center .size-8 .shadow}
+![延迟测试结果](https://cdn.abmcode.com/zh-cn/tech/_media/jdk17/latency.png) {.center .size-8 .shadow}
 
 从延迟的角度看，性能提升更加显著。在缩短 GC 暂停时间所投入的工作有了回报。其中 G1 提升效果最佳，ZGC 也不错。但是由于我们的基准测试是测量应用程序的延迟，所以还有数据在这个图表是看不到的。ZGC 在暂停时间上表现非常优异，下面的图表展示暂停时间的提升（数值越小越好），我们可以看到 ZGC 的超预期性能：
 
-![暂停时间测试结果](./_media/jdk17/p99_pause.png) {.center .size-8 .shadow}
+![暂停时间测试结果](https://cdn.abmcode.com/zh-cn/tech/_media/jdk17/p99_pause.png) {.center .size-8 .shadow}
 
 在这里，我们分析原始性能数字（每个柱子上的数字），因为图表按照数据尺度做了归一化，看上去有点奇怪。正如我们所看到的，JDK 17 中的 ZGC 的表现远低于其亚毫秒暂停时间的目标。G1 的目标是在延迟和吞吐量之间保持平衡，其暂停时间目标也低于其默认暂停时间目标 200ms。此图表最右边的柱子展示不同的收集器如何处理可伸缩性。ZGC 的设计是暂停时间不随堆大小而增大，我们清楚地看到，当堆扩展到 128 GB 时就是这种情况。从暂停时间的角度来看，G1 比 Parallel 更好地处理较大的堆，因为 G1 也具有保持暂停时间目标的逻辑。
 
 ### 资源占用
 
-![资源占用测试结果](./_media/jdk17/footprint.png) {.center .size-8 .shadow}
+![资源占用测试结果](https://cdn.abmcode.com/zh-cn/tech/_media/jdk17/footprint.png) {.center .size-8 .shadow}
 
 图中比较了三个不同收集器对本地内存的使用峰值。从结果看 Parallel 和 ZGC 都非常稳定，因此我们只能比较使用内存的绝对数值，而 G1 在这方面确实有所改进。
 
