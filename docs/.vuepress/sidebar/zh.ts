@@ -10,7 +10,7 @@ export const zhSidebar = sidebar({
     {
       text: "Jmix",
       icon: "/jmix-sign.png",
-      collapsable: true,
+      collapsible: true,
       prefix: "/zh-cn/jmix/",
       children: [
         {
@@ -26,7 +26,7 @@ export const zhSidebar = sidebar({
         {
           text: "技术文章",
           icon: "creative",
-          collapsable: true,
+          collapsible: true,
           children: [
             {
               text: "扩展组件开发新体验",
@@ -47,7 +47,7 @@ export const zhSidebar = sidebar({
         },
         {
           text: "里程碑",
-          collapsable: true,
+          collapsible: true,
           prefix: "/zh-cn/jmix/releases/",
           icon: "ability",
           children: [
@@ -69,7 +69,7 @@ export const zhSidebar = sidebar({
       text: "Angular",
       icon: "/angular.svg",
       prefix: "/zh-cn/ng/",
-      collapsable: true,
+      collapsible: true,
       children: [
         {
           text: "Universal & SEO",
@@ -82,7 +82,7 @@ export const zhSidebar = sidebar({
       text: "行业视角",
       icon: "mount",
       prefix: "/zh-cn/industry/",
-      collapsable: true,
+      collapsible: true,
       children: [
         {
           text: "企业级开发平台的演进",
@@ -120,7 +120,7 @@ export const zhSidebar = sidebar({
       text: "信息前沿",
       icon: "update",
       prefix: "/zh-cn/tech/",
-      collapsable: true,
+      collapsible: true,
       children: [
         {
           text: "JDK 17",
