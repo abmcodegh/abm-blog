@@ -72,7 +72,7 @@ export default hopeTheme({
       displayFooter: true,
 
       blog: {
-        description: "我们关注提升开发者效率的工具和产品",
+        description: "专注于企业级开发的效率工具<br>提供现代企业数字化解决方案",
         intro: "/zh-cn/intro.html",
       },
 

@@ -6,7 +6,7 @@ title: 世开 Coding
 heroImage: /Coding_512x100.png
 heroText: 知客户 懂产品 爱技术 创价值
 heroFullScreen: true
-tagline: 我们专注于企业级开发的效率工具<br>提供现代企业数字化解决方案
+# tagline: 专注于企业级开发的效率工具<br>提供现代企业数字化解决方案
 footer: false
 bgImage: false
 description: 北京世开科技有限公司博客，我们关注快速开发框架少代码平台等提升开发者效率的工具

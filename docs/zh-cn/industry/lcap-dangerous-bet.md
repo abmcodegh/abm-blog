@@ -25,7 +25,7 @@ _低代码平台在开发原型级别的应用上，无所匹敌，但也只能�
 
 ![Gartner 低代码竞争力评价](https://cdn.abmcode.com/zh-cn/industry/_media/lcap/gartner_lc.png) {.center .size-6 .shadow}
 
-在向企业高管营销时，LCAP 们会号称业务人员（也有说市民开发者，非专业开发者）就能构建企业级的解决方案。那么，后来专业开发人员都失业了吗？我们知道并没有，反而几年后 Mendix 推出了面向专业开发者的版本：
+在向企业高管营销时，LCAP 们会号称业务人员（也有说公民开发者，非专业开发者）就能构建企业级的解决方案。那么，后来专业开发人员都失业了吗？我们知道并没有，反而几年后 Mendix 推出了面向专业开发者的版本：
 
 ![Mendix for developers](https://cdn.abmcode.com/zh-cn/industry/_media/lcap/mendix_pro_dev.png) {.center .size-8 .shadow}
 

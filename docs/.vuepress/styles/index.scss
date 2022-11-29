@@ -38,12 +38,12 @@ h2 {
 // 首页封面样式
 .blog-hero {
   background-blend-mode: normal;
-  background-color: rgb(83, 165, 232);
-  background-image: radial-gradient(
-    at center 115%,
-    rgba(255, 255, 255, 0.9),
-    transparent
-  );
+  // background-color: rgb(83, 165, 232);
+  // background-image: radial-gradient(
+  //   at center 115%,
+  //   rgba(255, 255, 255, 0.9),
+  //   transparent
+  // );
   background-position-x: 50%;
   background-position-y: 50%;
   background-size: cover;
@@ -55,7 +55,7 @@ h2 {
   h1 {
     font-size: 1.5rem !important;
     font-weight: 300;
-    color: var(--theme-warning-color);
+    color: #ea4827;
   }
 
   .description {
@@ -69,6 +69,26 @@ h2 {
 
   .slide-down-button .icon:nth-child(2) {
     color: rgba($color: #303a9a, $alpha: 0.75) !important;
+  }
+}
+
+// 博客首页样式
+.blog-home {
+  #article-list {
+    .article-item {
+      margin: 0 auto 2px;
+      .article {
+        border-radius: 0;
+        .excerpt {
+          margin: 10px auto;
+          font-size: 13px;
+          color: #666;
+        }
+        .page-info {
+          font-size: 11px;
+        }
+      }
+    }
   }
 }
 
