@@ -17,7 +17,7 @@ _随着数字化的兴起，物流业也正在经历前所未有的变局。_
 
 <!-- more -->
 
-![题图](./_media/logistics/logistics_cover.png) {.center .size-8 .radius .shadow}
+![题图](https://cdn.abmcode.com/zh-cn/industry/_media/logistics/logistics_cover.png) {.center .size-8 .radius .shadow}
 
 <!-- # 大标题 -->
 
