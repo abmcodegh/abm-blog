@@ -109,11 +109,11 @@ export const zhSidebar = sidebar({
           icon: "article",
           link: "insurance"
         },
-        // {
-        //   text: "物流自动化",
-        //   icon: "article",
-        //   link: "logistics"
-        // },
+        {
+          text: "物流自动化",
+          icon: "article",
+          link: "logistics"
+        },
       ]
     },
     {
