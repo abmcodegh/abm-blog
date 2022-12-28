@@ -10,7 +10,7 @@ tag:
 head:
   - - meta
     - name: keywords
-      content: jmix,快速开发,少代码,低代码,企业级应用开发,Java 快速开发框架,流行 Java 框架
+      content: JDK,JDK17,Spring,jakarta,java ee,jdk 性能,jdk gc
 ---
 
 _还在用 JDK 8 吗？Spring 已经推荐使用 JDK 17，是时候考虑升级了_
