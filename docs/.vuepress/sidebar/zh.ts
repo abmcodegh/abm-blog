@@ -126,6 +126,11 @@ export const zhSidebar = sidebar({
           text: "JDK 17",
           icon: "article",
           link: "jdk17"
+        },
+        {
+          text: "Postman 进阶技巧",
+          icon: "article",
+          link: "postman"
         }
       ]
     }
