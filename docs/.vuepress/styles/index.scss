@@ -157,7 +157,7 @@ h2 {
   }
 
   .center-text {
-    text-align: center;
+    text-align: center !important;
   }
 
   .center > img {
@@ -191,6 +191,22 @@ h2 {
     float: right;
 
     @include floatingImage;
+  }
+
+  .weight {
+    font-weight: 700;
+  }
+
+  .large {
+    font-size: 1.5rem;
+  }
+
+  .enhanced {
+    // border: 1px solid var(--theme-color);
+    padding: 1rem;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgba(#fe8a34, 0.08);
   }
 }
 

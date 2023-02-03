@@ -19,6 +19,11 @@ export const zhSidebar = sidebar({
           link: "jmix-introduction"
         },
         {
+          text: "Jmix 是低代码平台吗？",
+          icon: "article",
+          link: "jmix-less-code"
+        },
+        {
           text: "FAQ",
           icon: "question",
           link: "jmix-qa"
