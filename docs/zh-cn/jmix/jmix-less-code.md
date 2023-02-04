@@ -2,7 +2,7 @@
 author: 世开 Coding
 date: 2023-01-18
 title: Jmix 是低代码平台吗？
-description: Jmix 是一个少代码开发平台
+description: Jmix 是一个少代码开发平台，介于低代码和传统开发之间。
 category:
   - Jmix
 tag:
@@ -18,24 +18,32 @@ _Jmix 是不是低代码平台？这篇文章会给你答案。_
 <!-- more -->
 
 <script>
-  window.lessCodeToolContent = [
+  const abmGlobal =
+    typeof globalThis === "object"
+      ? globalThis
+      : typeof window === "object"
+      ? window
+      : typeof global === "object"
+      ? global
+      : null;
+  abmGlobal.lessCodeToolContent = [
     {title:'代码审查',content:'能在一个开发工具中查看和审查代码'},
     {title:'代码调试',content:'能使用专业的开发工具调试应用程序的代码'},
     {title:'代码重载',content:'能重载或重写一些核心逻辑'},
     {title:'协作编程',content:'在编码时，能在团队中使用一些流行的代码管理工具'},
     {title:'自由部署',content:'希望能按需部署和分发应用程序'},
     ];
-  window.lessVsLowContent = [
+  abmGlobal.lessVsLowContent = [
     {tag:'LOW CODE',content:'低代码提供了一个在特定平台边界内使用团队技能的方案<hr>低代码需要供应商提供技术支持<hr>低代码使用合作伙伴的能力<hr>低代码根据其闭源平台的特性和独有的开发经验提供实施方案加速开发过程<hr>低代码需要供应商进行培训<hr>低代码根据用户数进行计费'},
     {tag:'LESS CODE',content:'Jmix 少代码提供知识库和技术以增强团队能力<hr>Jmix 少代码以开源贡献者提供支持<hr>Jmix 少代码提供开源社区经验<hr>Jmix 少代码通过提供特定的工具和数以千计的开发者经验自然加速开发过程<hr>Jmix 少代码需要几周的时间学习<hr>Jmix 少代码根据团队开发者数量计费'},
     ];
-  window.lowCodeLackContent = [
+  abmGlobal.lowCodeLackContent = [
     {title:'界面灵活度',content:'界面灵活度 - 支持复杂界面设计以及界面的自定义能力。低代码并不支持自定义界面，而只能使用已有的界面模板。少代码支持自定义用户界面或使用内部集成的界面模板。'},
     {title:'业务逻辑灵活度',content:'业务逻辑灵活度 - 数据模型的复杂度，BPM 和工作流的复杂度。低代码的数据模型通常比较简单，而且难以构建复杂的系统。少代码能提供更广泛的数据模型支持和业务逻辑支持。'},
     {title:'供应商独立性',content:'供应商独立性 - 在运行时能脱离供应商。低代码平台一般运行在供应商提供的环境中。少代码支持用户使用任何运行时环境。'},
     {title:'集成能力',content:'集成能力 - 平台的开放 API 能力以及与企业目前的 IT 系统集成的能力。低代码的集成能力受限于供应商的运行环境。少代码提供特定的集成和部署工具。'},
     ];
-  window.lessCodeTakeawaysContent = [
+  abmGlobal.lessCodeTakeawaysContent = [
     {icon:'/icon/settings.svg',content:'低代码方案可用更灵活的少代码替代'},
     {icon:'/icon/tool.svg',content:'使用工具降低 web 开发的复杂度'},
     {icon:'/icon/layers.svg',content:'少代码的应用范围更广，低代码只能用于特定业务场景'},
@@ -46,7 +54,7 @@ _Jmix 是不是低代码平台？这篇文章会给你答案。_
     {icon:'/icon/shopping.svg',content:'加快产品上线时间'},
     {icon:'/icon/partnership.svg',content:'无供应商锁定'},
     ];
-  window.whatIsLessCodeContent = [
+  abmGlobal.whatIsLessCodeContent = [
     {title:'那么，我们说的少代码究竟是什么？',content:'“少代码”是面向专业开发人员的快速应用程序开发工具，结合了面向未来的技术栈，并提供丰富的即用型业务扩展组件。从概念上讲，它介于低代码应用程序平台和传统开发之间，结合了前者的高开发速度和后者的灵活性。少代码与低代码类似，但专注于服务专业开发人员。<br><br>企业在选择低代码时犯的一个常见错误是忽略了开发人员的体验。这里的关键问题是谁将在你的公司中使用这个平台？如果开发人员是该技术的主要用户，那么最好专注于他们的需求，并相信我们的经验 - 开发者不想学习另一种无法获得专业技能的技术。'},
     ];
 </script>

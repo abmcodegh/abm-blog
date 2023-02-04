@@ -31,7 +31,22 @@ export default {
         return [];
       }
       setTimeout(() => {
-        let content = window[this.data];
+        const abmGlobal =
+          typeof globalThis === "object"
+            ? globalThis
+            : typeof window === "object"
+            ? window
+            : typeof global === "object"
+            ? global
+            : null;
+
+        if (!abmGlobal) {
+          console.error("No GLOBAL");
+          return;
+        }
+
+        let content = abmGlobal[this.data];
+
         const total = content.length;
 
         const remain = total % 3;
@@ -53,7 +68,6 @@ export default {
               "<hr>",
               '<hr style="margin: 1rem auto;"/>'
             );
-            console.log(content[i].content);
           }
         }
         this.items = content;
@@ -113,6 +127,7 @@ export default {
   position: relative;
   left: -5px;
   top: -12px;
+  max-width: 32px;
 }
 
 .card .title {

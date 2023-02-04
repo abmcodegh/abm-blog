@@ -138,7 +138,15 @@ Jmix 专为企业应用程序开发而设计，也就是说，平台开发的应
 ### Jmix 可以解决保险业自动化的诸多挑战 {.center-text}
 
 <script>
-  window.abmInsuranceCard = [
+  const abmGlobal =
+    typeof globalThis === "object"
+      ? globalThis
+      : typeof window === "object"
+      ? window
+      : typeof global === "object"
+      ? global
+      : null;
+  abmGlobal.abmInsuranceCard = [
     {title:'提升客户体验',content:'通过轻量级模块化的应用和工作流的无缝自动化提升用户的体验。开发团队能专注于最有价值的业务逻辑。'},
     {title:'确保合规性',content:'通过全面的审计功能实现企业级的数据安全性和合规性，满足保险等高度监管行业的需求。基于角色的高成熟度安全性能防止潜在的数据泄露。'},
     {title:'更快交付',content:'软件全生命周期的支持并提供开发工具，能满足常见的非功能性需求。支持从早期的最小可用产品到整个保险行业生态数字系统的建成。'},

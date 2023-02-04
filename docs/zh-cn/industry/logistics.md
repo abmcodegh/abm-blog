@@ -73,7 +73,15 @@ _随着数字化的兴起，物流业也正在经历前所未有的变局。_
 尽管使用物流自动化的主要目的是降本增效增收，但是除此之外，企业还能获得其他益处。
 
 <script>
-  window.abmLogisticsCard = [
+  const abmGlobal =
+    typeof globalThis === "object"
+      ? globalThis
+      : typeof window === "object"
+      ? window
+      : typeof global === "object"
+      ? global
+      : null;
+  abmGlobal.abmLogisticsCard = [
     {title:'物流自动化节约成本',content:'物流自动化可以确保做出最有效的决策降低运营成本，包括选择高效快速的运输路线和最具成本效益的承运人。通过自动控制运费保费支出和每批货物的载量，可以节约大量成本。自动化库存管理还可以减少存储成本，管理高峰需求。'},
     {title:'提高生产力和运营效率',content:'通过对日常流程的自动化，可以最大限度提高员工效率。'},
     {title:'减少人为错误',content:'物流自动化软件可以最大限度地减少人为错误，避免由于人为错误造成的关键任务失败和赔偿'},

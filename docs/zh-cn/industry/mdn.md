@@ -154,7 +154,15 @@ Jmix 支持在已有数据库上直接运行，在“并行”的逐步替换方
 ### Jmix 通用高生产力应用平台兼顾了低代码平台的开发速度和传统开发的灵活性 {.center-text}
 
 <script>
-  window.abmMdnCard = [
+  const abmGlobal =
+    typeof globalThis === "object"
+      ? globalThis
+      : typeof window === "object"
+      ? window
+      : typeof global === "object"
+      ? global
+      : null;
+  abmGlobal.abmMdnCard = [
     {title:'自然贴合',content:'使用以数据为中心的开发方法和企业级 UI 组件实现企业应用系统的现代化'},
     {title:'未来验证',content:'基于数百万开发者信任的主流开源技术架构'},
     {title:'易上手',content:'使用 Java 或 Kotlin 作为唯一开发语言，并提供可视化开发工具帮助新人入门'},
