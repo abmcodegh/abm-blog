@@ -8,7 +8,7 @@ let footer = [
   '<span class="sk-blue">「所有文章均可转载，转载请注明出处」</span><br/>',
   '<span class="center"> ©Copyright 2018 - ' + year + ' All rights reversed </span>',
   'by <a href="https://www.abmcode.com" target="_blank">ABMcode（北京世开科技有限公司）</a>',
-  '<img id="qrcode" src="https://cdn.abmcode.com/_media/abmcode_qrcode.jpg"/>',
+  // '<img id="qrcode" src="https://cdn.abmcode.com/_media/abmcode_qrcode.jpg"/>',
 ].join('');
 
 export default hopeTheme({
@@ -40,7 +40,7 @@ export default hopeTheme({
   contributors: false,
   lastUpdated: false,
 
-  pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
+  pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime", "PageView"],
 
   blog: {
     avatar: "/abmcode_qrcode.jpg",
@@ -108,11 +108,11 @@ export default hopeTheme({
       /**
        * Using Giscus
        */
-      provider: "Giscus",
-      repo: "abmcodegh/blog-comments",
-      repoId: "R_kgDOIL8ygQ",
-      category: "Announcements",
-      categoryId: "DIC_kwDOIL8ygc4CR6ZI",
+      // provider: "Giscus",
+      // repo: "abmcodegh/blog-comments",
+      // repoId: "R_kgDOIL8ygQ",
+      // category: "Announcements",
+      // categoryId: "DIC_kwDOIL8ygc4CR6ZI",
       /**
        * Using Twikoo
        */
@@ -122,8 +122,10 @@ export default hopeTheme({
       /**
        * Using Waline
        */
-      // provider: "Waline",
-      // serverURL: "https://vuepress-theme-hope-comment.vercel.app",
+      provider: "Waline",
+      serverURL: "https://waline-comment-ee3woxbfa-bryanyin.vercel.app",
+      pageview: true,
+      copyright: false
     },
 
     // Disable features you don't want here

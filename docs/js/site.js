@@ -8,7 +8,7 @@ var footerPlugin = function (hook, vm) {
         '<span class="sk-blue">「所有文章均可转载，转载请注明出处」</span><br/>',
         '<span class="center"> ©Copyright 2018 - ' + year + ' All rights reversed </span>',
         'by <a href="https://www.abmcode.com" target="_blank">ABMcode（北京世开科技有限公司）</a>',
-        '<img id="qrcode" src="https://blog.abmcode.com/_media/abmcode_qrcode.jpg"/>',
+        // '<img id="qrcode" src="https://blog.abmcode.com/_media/abmcode_qrcode.jpg"/>',
         '</footer>'
     ].join('');
 

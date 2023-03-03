@@ -19,6 +19,10 @@ head:
  - 适用范围广，从前端到移动端到后端，提供全栈解决方案
  - 基于最流行的 Java 开发工具，提供最佳的开发者体验
 
+## 公众号
+
+![Jmix QR code](https://cdn.abmcode.com/_media/jmix_qr_code.jpg) {.qr-code .size-1}
+
 ## 文章列表
 
 1. [Jmix 是低代码吗？](jmix-less-code.md)
@@ -31,3 +35,6 @@ head:
 5. 里程碑：
    1. [Jmix 1.4](./releases/jmix-1.4.md)
    2. [Jmix 1.3](./releases/jmix-1.3.md)
+
+
+

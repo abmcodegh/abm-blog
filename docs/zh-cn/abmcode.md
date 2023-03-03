@@ -4,7 +4,7 @@ sticky: 1000
 title: 北京世开科技有限公司
 description: “世开 Coding” 博客是北京世开科技有限公司的技术博客。
 footer: false
-image: https://cdn.abmcode.com/_media/abmcode_qrcode.jpg
+# image: https://cdn.abmcode.com/_media/abmcode_qrcode.jpg
 comment: false
 head:
   - - meta
@@ -25,8 +25,8 @@ _“世开 Coding” 博客是北京世开科技有限公司的技术博客。_
 
 <p style="color: var(--theme-color)">“世开 Coding” 博客是我们相关技术的知识积累，欢迎通过下面的方式关注我们获取实时内容推送。</p>
 
-## 关注我们
+<!-- ## 关注我们
 
 微信公众号：
 
-![ABMcode QR code](https://cdn.abmcode.com/_media/abmcode_qrcode.jpg) {.qr-code}
+![ABMcode QR code](https://cdn.abmcode.com/_media/abmcode_qrcode.jpg) {.qr-code} -->

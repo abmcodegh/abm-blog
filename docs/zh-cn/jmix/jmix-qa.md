@@ -10,7 +10,7 @@ tag:
 head:
   - - meta
     - name: keywords
-      content: jmix,快速开发,少代码,低代码,企业级应用开发,Java 快速开发框架,流行 Java 框架
+      content: jmix,Spring,Spring boot,快速开发,少代码,低代码,企业级应用开发,Java 快速开发框架,流行 Java 框架
 ---
 
 _这里我们整理了关于 Jmix 适用场景、许可、支付、培训等大家常常咨询的问题的答案。_
@@ -21,27 +21,46 @@ _这里我们整理了关于 Jmix 适用场景、许可、支付、培训等大�
 
 ## 常见问题
 
-### Jmix 适合什么项目和开发者？ {#suitable}
+### Jmix 开发的应用程序是什么样的？{#outlook}
+下方链接中是一个 Jmix应用示例，您可以登录体验一下 Jmix交付的Web应用：
+
+[Jmix宠物诊所🐶](https://demo.jmix.io/petclinic/#login)
+
+::: tip
+登录页下方可选择中文简体语言。
+:::
+
+### Jmix 适合什么项目和团队？ {#suitable}
 
 Jmix 的使命是简化开发业务线 Web 应用系统，并提供卓越的生产力。这些业务系统是在公司、区域或部门级别运行。此类型的系统范围很广，从电子表格到高度专业化的自定义系统，分为 ERP、CRM、EAM、SCM、WMS、ECM、ERM、HRM 等。这类系统的典型特征是：
 
 - 具有重要的业务逻辑或需要流程自动化
 - 有大量的数据模型
 - 统一且功能化的 UI，且 UI 界面数量较多
-- 用户数量可预测，一般是公司内部职员或合作伙伴
+- 用户数量可预测，用户一般是企业内部员工、合作伙伴
 
 Jmix 是为专业开发者打造的产品，来源于开发者，服务于开发者。仍在使用旧技术栈的软件工程师或者只有 Java 基础知识的新手都可以使用Jmix，并且也能非常高效！Jmix 定义了应用程序的架构，并能指导您轻松地部署应用程序。因此，适合下列类型的团队：
 
-- 使用单一 Java/Kotlin 语言
+- 使用单一 Java/Kotlin 语言和 Spring Boot 生态
 - 初学者多的团队（通过 Jmix Studio 辅助编程）
-- 使用旧技术栈，期望转型的团队，例如，FoxPro、Oracle Forms、MS Access、Lightswitch、Silverlight、Delphi
+- 使用旧技术栈，期望转型的团队。
 
 另外，Jmix 也适合下列类型的项目：
 
 - 作为面向大量用户系统的具有高级别管理界面的强大后端
 - 对老旧系统进行现代化改造（Jmix 支持数据库反向工程）
 - 内部流程和工作流自动化（Jmix 有 BPM 引擎）
-- 避免 Saas/低代码 供应商费用和限制
+- 需要避免 Saas/低代码 供应商费用和限制
+
+### 为什么用 Jmix 而不直接用 Spring Boot？{#whyjmix}
+从开发角度，Jmix提供以下便利：
+* 基于 IDEA 插件的可视化开发工具辅助，更快，更舒适。尤其是数据库设计、角色配置和 UI 开发。
+* 数据安全，基于角色的权限配置 RBAC 和 行级数据安全控制。
+* 开箱即用的 BPM、REST、OIDC、WebDAV、Chart、报表、全文搜索、LDAP/SAML等。
+* 支持全 DevOps 和云原生应用程序。
+* 支持主流关系型数据库，Liquibase实现无差别数据库脚本管理。
+* 安全稳定。
+* 开箱即用的后台实体管理页面。
 
 ### Jmix 开发的项目安全性如何？ {#safety}
 
@@ -51,13 +70,19 @@ Jmix 是为专业开发者打造的产品，来源于开发者，服务于开发
 
 平台的成熟度不能保证排除了所有的安全风险，所以仍然需要强制的安全保障程序。但拥有超过 25,000 名成员和 1000 多个使用该平台完成的项目的强大社区为构建安全应用程序奠定了坚实的基础。
 
-### Jmix 提供哪些支持？ {#support}
+<!-- ### 使用 Jmix 能节省多少成本？ {#cost}
+
+首先，使用 Jmix 仅需为开发者席位付费，也就是说，如果公司有 3 个开发人员需要使用 Jmix，那么只需要购买 3 个许可。应用程序部署和运行不需要任何费用。
+
+其次，Jmix 的单开发者费用模型非常简单，以初级 Java 工程师使用一年期的 Jmix 快速开发版为例：许可费用大约 7000 元，人员工资大约 8000*12 = 96000 元。根据我们的调研，使用 Jmix 在项目初期能提高 1 倍的开发效率，中后期能提高 20% ~ 50% 的开发效率。拿平均 30% 计算，一年在成本上节约 96000x30% - 7000 = 21800 元，大约能节省 1/5 的人员成本。意味着，如果原本打算招 5 个开发人员，使用 Jmix 后，4 个就够了。 -->
+
+### 提供哪些支持？ {#support}
 
 我们为使用 Jmix 的开发者和企业提供免费和收费的服务，其中**免费服务**包括：
 
-- [视频](https://www.jmix.cn/learn/video/)和[文档](https://docs.jmix.cn/jmix/intro.html)
+- [开发文档](https://docs.jmix.cn/jmix/intro.html)
 - [程序示例](https://www.jmix.cn/learn/live-demo/)，其中[在线示例](https://demo.jmix.io/sampler)网站提供了源码，可以直接复制到项目中。
-- [社区论坛](https://forum.jmix.cn/)，这里是我们的知识积累宝库，可以搜索你要问的技术问题，或者提出新的问题，我们会有工作人员免费解答。
+- [**社区论坛**](https://forum.jmix.cn/)，这里是我们的知识积累宝库，可以搜索你要问的技术问题，或者提出新的问题，我们会有工作人员免费解答。
 
 **收费服务**包括[培训](#training)和技术外包、技术咨询服务。其中，技术外包按工作量估算，技术咨询按小时预付费购买，服务提供内容主要如下：
 
@@ -67,33 +92,40 @@ Jmix 是为专业开发者打造的产品，来源于开发者，服务于开发
 - 平台功能使用的一般咨询
 - 代码审查
 
-如需使用收费服务请发邮件至 <a href="mailto:admin@abmcode.com?subject=Jmix服务咨询">admin@abmcode.com</a> 我们会尽快回复并联系您，期待您的来信！
-
+如需使用收费服务请发邮件至 <a href="mailto:admin@abmcode.com?subject=Jmix服务咨询&cc=bryan.yin@jmix.cn">admin@abmcode.com</a> 我们会尽快回复并联系您，期待您的来信！
 
 <!-- ## 案例 -->
 
 ## 商业订阅 {#license}
 
-### Jmix 许可怎么收费？
+### 许可怎么收费？
 
-Jmix 平台由开源框架、Studio 和扩展组件市场三部分组成。其中开源框架使用的 [Apache 2.0 许可](https://www.apache.org/licenses/LICENSE-2.0)，完全免费并且可以自由分发。当您使用 Jmix 收费订阅计划时，您只是为**开发者席位付费**。我们只针对**可视化开发工具、模板和扩展组件**收费，这些功能提升开发团队的生产力，使数字产品的交付更加快捷。我们提供基于开发者数量的订阅定价模型，而不是基于用户的定价（运行时定价）和基于使用的定价（与业务价值相关）模型。**保证您可以不受限制的自由使用和交付您的 Jmix 应用程序**。
+Jmix 有免费开发版、快速开发版以及企业版。
+- 免费开发版：适合项目后期维护，以及有经验的Jmix开发者。
+- 快速开发版：包含可视化设计器，数据库更新脚本生成；新手友好；或追求生产效率和舒适应用程序开发的人员。
+- 企业开发版：包含快速开发版所有功能以及一些企业级高级功能（BPM，WebDAV等）。
+ 
+Jmix 是对开发过程收费的，您发布、部署的任何应用不会被是否有授权所影响。如果您需要最小成本的使用Jmix，可以尝试以下方案：
+- 在项目初期或交付稳定版之前使用快速开发版，快速交付，舒适开发。
+- 在项目维护期或熟练使用Jmix之后，使用免费版。
+- 或只使用免费版，只享受 Jmix 开箱提供的功能组件。
 
-### Jmix 许可价格？
+### 许可价格？
 
-Jmix 许可价格请参考我们的[订阅计划和价格](https://www.jmix.cn/subscription-plans-and-prices/)网页。
+Jmix 许可价格请参考官网[订阅计划和价格](https://www.jmix.cn/subscription-plans-and-prices/)。
 
-### Jmix 许可如何购买？ {#payment}
+### 许可如何购买？ {#payment}
 
-支付方式支持通过[在线商店](https://www.jmix.io/store/#/store/)直接支付。如果遇到银行网关问题支付不成功，或者希望通过对公支付，可以选择发邮件至 <a href="mailto:admin@abmcode.com?subject=Jmix许可购买">admin@abmcode.com</a> 我们会尽快回复并联系您，期待您的来信！
+通过 Jmix 授权服务提供商购买可获得经销商折扣。请发邮件至 <a href="mailto:admin@abmcode.com?subject=Jmix许可购买&cc=bryan.yin@jmix.cn">admin@abmcode.com</a> 我们会尽快回复并联系您，期待您的来信！另外，也可以通过[Jmix 在线商店](https://www.jmix.io/store/#/store/)直接支付。
 
 ::: danger 关于发票
 线上支付仅由 Haulmont 公司提供形式发票（Invoice），也可用于财务报销，支付后会由系统自动发送许可秘钥。
-<br/>国内线下支付，可以提供小微企业增值税普通发票或 3% 税率增值税专用发票。根据付款时间当天或 1 个工作日内发送许可秘钥。
+<br/>国内线下支付，可以提供小微增值税普通发票或 3% 税率增值税专用发票。付款后 1~2 个工作日内发送许可秘钥。
 :::
 
 ### 购买是否有优惠？ {#discount}
 
-我们为 Jmix **企业开发版订阅**提供批量优惠：
+通过我们购买的用户可以享受经销商优惠，另外，Jmix **企业开发版订阅**还有批量优惠：
 
 | 开发者数量 | 优惠折扣 |
 | ---------- | -------- |
@@ -104,26 +136,27 @@ Jmix 许可价格请参考我们的[订阅计划和价格](https://www.jmix.cn/s
 
 {.abmTable .fifty}
 
-**线下支付还有供应商优惠**，欢迎给我们[发邮件](mailto:admin@abmcode.com?subject=Jmix许可购买)咨询，期待您的来信！
+欢迎给我们[发邮件](mailto:admin@abmcode.com?subject=Jmix许可购买&cc=bryan.yin@jmix.cn)咨询，期待您的来信！
 
 ### 各个付费版之间有什么差别？
 
 版本之间的差别请查看我们[订阅计划](https://www.jmix.cn/subscription-plans-and-prices/)网页中的**订阅计划功能对比**部分，需要注意的是，**BPM 流程引擎仅包含在企业开发版**中。
 
-另外，Jmix Studio 为新用户提供了 28 天的试用期，可以在 IDEA 中安装了 Jmix 插件之后点击**Request Trial**，查看是否能申请试用：
-
-![Jmix Studio 试用](https://cdn.abmcode.com/zh-cn/jmix/_media/jmix-qa/subscription-trial.png) {.center .size-3 .shadow}
+另外，新用户可以直接在 Jmix Studio 中注册，注册完成后自动启用快速开发版 28 天试用。如需使用**企业版试用**，请参考[Jmix 文档::企业版试用](https://docs.jmix.cn/jmix/studio/subscription.html#enterprise-trial)。
 
 ## 培训 {#training}
 
-### 公司培训 {#companyTraining}
+2023 年我们会推出一些免费的培训资料、视频。
 
+<!-- 入门视频 -->
+
+### 公司培训 {#companyTraining}
 
 我们为公司提供**线上培训**（腾讯会议），培训内容包括框架使用基本培训、背景知识培训、如何提高开发效率以及定制需求的培训。培训内容可根据特定的项目内容，特定的领域做定制化。培训具体费用根据人数、培训内容、培训时长有不同定价。请参考下面的培训目录：
 
 <a class="download-button" href="https://cdn.abmcode.com/zh-cn/jmix/_media/jmix-qa/Jmix_training_catalog.pdf" target="_blank" download>下载课程目录</a>
 
-如需咨询培训，请发邮件至 <a href="mailto:admin@abmcode.com?subject=Jmix培训咨询">admin@abmcode.com</a> 并提供下列内容：
+如需咨询培训，请发邮件至 <a href="mailto:admin@abmcode.com?subject=Jmix培训咨询&cc=bryan.yin@jmix.cn">admin@abmcode.com</a> 并提供下列内容：
 
 1. 参加培训人数
 2. 团队基础（前端，Java，Spring，数据库，编码年限等）
@@ -144,14 +177,14 @@ Jmix 许可价格请参考我们的[订阅计划和价格](https://www.jmix.cn/s
 
 培训内容：
 1. 入门：
-   1. 根据[安装说明](https://www.jmix.cn/jmix-plugin-installation/)在 IntelliJ IDEA 中安装 Jmix Studio。
+   1. 根据[安装说明](https://docs.jmix.cn/jmix/setup.html#studio)在 IntelliJ IDEA 中安装 Jmix Studio。
    2. 根据[Jmix 快速入门](https://www.jmix.cn/learn/quickstart/)花 15~30 分钟完成一个小而全的项目，其中包含：
       - 数据模型设计和数据读写。
       - 创建用户界面和业务逻辑。
       - 增加安全机制。
    3. 查看 [Jmix 在线示例](https://demo.jmix.io/sampler/)，并尝试从示例中复制代码至学习项目中，在自己的项目中运行并展示复制的示例。
 2. 进阶：
-   1. 进一步了解 [Jmix Studio](https://docs.jmix.cn/jmix/studio/studio-ui.html) 的全部功能。
+   1. 进一步了解 [Jmix Studio](https://docs.jmix.cn/jmix/studio/studio-features.html) 的全部功能。
    2. 根据开发文档中的 [快速入门](https://docs.jmix.cn/jmix/tutorial/index.html) 完成一个更加复杂的项目。
    3. 学习 Jmix 的[安全机制](https://docs.jmix.cn/jmix/security/index.html)。
    4. 了解 Jmix 开箱即用的[扩展组件](https://docs.jmix.cn/jmix/add-ons.html)，包括 BPM。
