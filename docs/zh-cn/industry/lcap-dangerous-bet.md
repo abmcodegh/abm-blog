@@ -21,7 +21,7 @@ _低代码平台在开发原型级别的应用上，无所匹敌，但也只能�
 
 <!-- # 使用低代码平台 - 危险的赌注 -->
 
-低代码应用平台（LCAP - Low Code Application Platforms）在多样、复杂的现代软件开发情势下应运而生。根据 Gartner 的数据，Mendix 是这方面的翘楚，但其实类似的分析也适用于 Outsystems、Appian、Kony、Betty Blocks 以及其他低代码平台。
+低代码应用平台（LCAP - Low Code Application Platforms）在多样、复杂的现代软件开发形势下应运而生。根据 Gartner 的数据，Mendix 是这方面的翘楚，但其实类似的分析也适用于 Outsystems、Appian、Kony、Betty Blocks 以及其他低代码平台。
 
 ![Gartner 低代码竞争力评价](https://cdn.abmcode.com/zh-cn/industry/_media/lcap/gartner_lc.png) {.center .size-6 .shadow}
 
