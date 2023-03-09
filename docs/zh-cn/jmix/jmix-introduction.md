@@ -76,7 +76,7 @@ Jmix Studio 是一款 IntelliJ IDEA 的插件，通过与 IDEA 的无缝集成�
 
 开发者可以在源代码或可视化设计器之间随时切换，两边做的改动都会自动同步。这个功能支持所有的可视化设计内容：数据模型、用户界面、业务流、安全角色定义。
 
-![Studio 预览](https://cdn.abmcode.com/zh-cn/jmix/_media/jmix-introduction/jmix_new_eff2.png)
+![Studio 预览](https://cdn.abmcode.com/zh-cn/jmix/_media/jmix-studio1.png)
 
 Jmix Studio 的主要功能都涵盖在免费版中。而一些能提高初级开发人员效率的功能，比如可视化设计器，则仅在两款商业版中提供。
 

@@ -18,7 +18,7 @@ _寻找 Web 快速开发平台？试试 Jmix 少代码_
 <!-- more -->
 
 
-![题图](./_media/evaluate-jmix/evaluate-jmix-cover.png) {.center .size-8 .radius .shadow}
+![题图](https://cdn.abmcode.com/zh-cn/jmix/_media/evaluate-jmix/evaluate-jmix-cover.png) {.center .size-8 .radius .shadow}
 
 <!-- # 大标题 -->
 
@@ -47,19 +47,19 @@ Jmix 是一款基于 Spring boot 的开源 Web 快速开发框架。包含三个
 
 Jmix 框架本身是基于 Spring boot 的“最佳实践集合”。非侵入式地建立在 Spring boot 框架之上，提供企业级开发必须的功能，例如，基于角色的权限控制（RBAC），数据库行级别的数据访问控制，快速创建功能丰富的数据展示和操作页面等。因此，你在 Spring 框架积累的经验可以继续使用，并且由于继承了 Spring 的扩展性，Jmix 框架也是非常灵活和易扩展的。
 
-![Jmix 架构](./_media/evaluate-jmix/jmix-arch.png) {.center .size-5 .radius .shadow}
+![Jmix 架构](https://cdn.abmcode.com/zh-cn/jmix/_media/evaluate-jmix/jmix-arch.png) {.center .size-5 .radius .shadow}
 
 ### Jmix Studio
 
 Studio 是一款 IntelliJ IDEA 插件。通过 Studio 提供开发阶段的辅助编程：提供实体、界面、角色、JPQL 的可视化设计器，数据库脚本生成，代码辅助，自动注入，智能代码浏览等等丰富且能提高开发者效率和代码质量。
 
-![Jmix Studio](./_media/jmix-studio1.png) {.center .size-8 .radius }
+![Jmix Studio](https://cdn.abmcode.com/zh-cn/jmix/_media/jmix-studio1.png) {.center .size-9 .radius }
 
 ### 扩展组件市场
 
 通过组件市场，你可以仅需几次简单的按钮点击就在项目中集成某个典型功能。Jmix 的扩展组件是包含实体、业务逻辑、界面的全栈模块。例如，BPM、REST、报表、OIDC、WebDAV、Chart 等等。
 
-![](./_media/evaluate-jmix/add-on-marketplace.png) {.center .size-5 .radius .shadow}
+![](https://cdn.abmcode.com/zh-cn/jmix/_media/evaluate-jmix/add-on-marketplace.png) {.center .size-5 .radius .shadow}
 
 ## Jmix 应用是什么样的？{#outlook}
 
@@ -71,7 +71,7 @@ Studio 是一款 IntelliJ IDEA 插件。通过 Studio 提供开发阶段的辅�
 登录页下方可选择中文简体语言。
 :::
 
-![宠物诊所应用截图](./_media/petclinic.png) {.center .size-8 .radius .shadow}
+![宠物诊所应用截图](https://cdn.abmcode.com/zh-cn/jmix/_media/petclinic.png) {.center .size-9 .radius .shadow}
 
 ## 为什么不直接用 Spring Boot？{#whyjmix}
 

@@ -14,6 +14,11 @@ export const zhSidebar = sidebar({
       prefix: "/zh-cn/jmix/",
       children: [
         {
+          text: "Jmix 适合我吗？",
+          icon: "article",
+          link: "evaluate-jmix"
+        },
+        {
           text: "Jmix - 少代码企业级开发平台",
           icon: "article",
           link: "jmix-introduction"
