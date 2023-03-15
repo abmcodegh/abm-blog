@@ -59,7 +59,7 @@ Studio 是一款 IntelliJ IDEA 插件。通过 Studio 提供开发阶段的辅�
 
 通过组件市场，你可以仅需几次简单的按钮点击就在项目中集成某个典型功能。Jmix 的扩展组件是包含实体、业务逻辑、界面的全栈模块。例如，BPM、REST、报表、OIDC、WebDAV、Chart 等等。
 
-![](https://cdn.abmcode.com/zh-cn/jmix/_media/evaluate-jmix/add-on-marketplace.png) {.center .size-5 .radius .shadow}
+![扩展组件市场](https://cdn.abmcode.com/zh-cn/jmix/_media/evaluate-jmix/add-on-marketplace.png) {.center .size-5 .radius .shadow}
 
 ## Jmix 应用是什么样的？{#outlook}
 

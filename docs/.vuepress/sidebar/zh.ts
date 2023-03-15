@@ -62,6 +62,11 @@ export const zhSidebar = sidebar({
           icon: "ability",
           children: [
             {
+              text: "Jmix 1.5",
+              icon: "activity",
+              link: "jmix-1.5"
+            },
+            {
               text: "Jmix 1.4",
               icon: "activity",
               link: "jmix-1.4"
