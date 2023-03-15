@@ -16,9 +16,9 @@ head:
 _Jmix 少代码快速开发框架 1.5 版本发布，包括框架和 Studio 的更新_
 
 <!-- more -->
-<!-- https://cdn.abmcode.com/zh-cn/jmix/releases -->
 
-![Jmix1.5 发布](./_media/jmix-1.5/jmix_1.5.png) {.center .size-8 .radius .shadow}
+
+![Jmix1.5 发布](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/jmix-1.5/jmix_1.5.png) {.center .size-8 .radius .shadow}
 
 最近我们发布了 Jmix 的最新 1.5 正式版本。本文中，我们将介绍 1.5 版本中引入的主要新功能和改进。
 
@@ -32,13 +32,13 @@ _Jmix 少代码快速开发框架 1.5 版本发布，包括框架和 Studio 的�
 
 因此，我们决定移除静态的组件工具箱面板，而改为通过几种不同的方式打开工具箱弹窗的交互模式。这几种不同的方式包括：从顶部操作面板打开，从组件层级结构的右键菜单打开，以及从源代码编辑器中的 **Generate** 菜单打开。新的工具箱弹窗支持搜索可用组件，也支持将组件拖放至 UI 层级结构或者源码中：
 
-![Studio 添加组件](./_media/jmix-1.5/add_component.gif) {.center .size-8 .shadow}
+![Studio 添加组件](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/jmix-1.5/add_component.gif) {.center .size-8 .shadow}
 
 UI 组件层级结构和组件属性面板现在合并成了单一的工具窗口，称为 Jmix UI，默认位于 IDE 的右侧。因此，UI 可视化设计器最后仅保留一个工具窗口，而组件工具箱可以通过不同的方式打开。
 
 Studio 界面中的另一个不太好用的功能是 **Code Snippets** 工具箱。尽管对于没有 Jmix 开发经验的人来说，这个功能非常有用，但是却很难被注意到。所以，我们也修改了这个面板的展示方式：现在，在编辑 Spring bean 或者 UI 控制器时，可以通过顶部操作面板的按钮或者 **Generate** 菜单打开，并且代码段的窗口也是以弹窗的方式展示。
 
-![Studio 代码片段](./_media/jmix-1.5/code_snippets.png) {.center .size-8 .shadow .radius}
+![Studio 代码片段](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/jmix-1.5/code_snippets.png) {.center .size-8 .shadow .radius}
 
 ## Flow UI 改进
 
@@ -66,7 +66,7 @@ Studio 界面中的另一个不太好用的功能是 **Code Snippets** 工具箱
 </tabSheet>
 ```
 
-![Flow UI TabSheet](./_media/jmix-1.5/tabsheet.gif) {.center .size-8 .shadow .radius}
+![Flow UI TabSheet](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/jmix-1.5/tabsheet.gif) {.center .size-8 .shadow .radius}
 
 ### MultiSelectComboBox
 
@@ -95,7 +95,7 @@ Studio 界面中的另一个不太好用的功能是 **Code Snippets** 工具箱
 </formLayout>
 ```
 
-![Flow UI MultiSelectComboBox](./_media/jmix-1.5/multi_Select_Combo_Box.gif) {.center .size-4 .shadow .radius}
+![Flow UI MultiSelectComboBox](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/jmix-1.5/multi_Select_Combo_Box.gif) {.center .size-4 .shadow .radius}
 
 ### 上传控件
 
@@ -132,7 +132,7 @@ Tooltip（提示窗）可以在 UI 组件旁边的小弹窗中展示组件的附
 
 对于支持提示窗的组件，Studio UI 设计器会在组件属性面板展示 _Add_ 按钮：
 
-![Flow UI 添加提示窗](./_media/jmix-1.5/tooltip_add.png) {.center .size-4 .shadow .radius}
+![Flow UI 添加提示窗](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/jmix-1.5/tooltip_add.png) {.center .size-4 .shadow .radius}
 
 在 XML 中则是通过组件内部的元素定义：
 
@@ -142,7 +142,7 @@ Tooltip（提示窗）可以在 UI 组件旁边的小弹窗中展示组件的附
 </textField>
 ```
 
-![Flow UI 提示窗](./_media/jmix-1.5/tooltip.gif) {.center .size-6 .shadow .radius}
+![Flow UI 提示窗](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/jmix-1.5/tooltip.gif) {.center .size-6 .shadow .radius}
 
 ### 通用过滤器
 
@@ -150,7 +150,7 @@ Tooltip（提示窗）可以在 UI 组件旁边的小弹窗中展示组件的附
 
 在 Jmix 1.5，我们在 Flow UI 中添加了具有基本功能的通用过滤器：用户可以基于整个实体关系图创建任意数量的属性条件。与 Flow UI 中的其他组件一样，过滤器也是响应式的：
 
-![Flow UI 响应式过滤器](./_media/jmix-1.5/filter.gif) {.center .size-8 .shadow .radius}
+![Flow UI 响应式过滤器](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/jmix-1.5/filter.gif) {.center .size-8 .shadow .radius}
 
 而且，对于响应式的 breakpoints，过滤器还支持在其内部 XML 元素 `responsiveSteps` 进行配置：
 
@@ -195,7 +195,7 @@ Flow UI 中的主菜单结构与经典 UI 不同：每个扩展组件都有自�
 
 现在，这个问题已经在 Flow UI 的菜单设计器中得到解决。一旦切换到 “Single” 模式，设计器就会在左侧显示一个包含扩展组件所有菜单项的面板，这些菜单也可以在主菜单使用。这样一来，在添加了新的扩展组件之后，只需要将扩展组件的菜单拖放到主菜单中合适的位置即可。
 
-![Flow UI 菜单设计器](./_media/jmix-1.5/menu_designer.png) {.center .size-8 .shadow .radius}
+![Flow UI 菜单设计器](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/jmix-1.5/menu_designer.png) {.center .size-8 .shadow .radius}
 
 ## Excel 导出
 
@@ -223,7 +223,7 @@ Jmix 的一个优势是能帮助开发人员创建和运行用于数据库版本
 
 Jmix 工具窗口中，通过双击数据存储下的 Liquibase 节点即可打开 root changelog：
 
-![Flow UI root changelog](./_media/jmix-1.5/root_changelog.png) {.center .size-8 .shadow .radius}
+![Flow UI root changelog](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/jmix-1.5/root_changelog.png) {.center .size-8 .shadow .radius}
 
 ## 下一步？
 
