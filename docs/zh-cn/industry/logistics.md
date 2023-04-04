@@ -2,7 +2,7 @@
 author: 世开 Coding
 date:  2022-12-20
 title: 物流自动化：趋势和机遇
-description: 
+description: 物流行业在数字化转型过程中，究竟有哪些机会呢
 category:
   - 行业视角
 tag:
@@ -10,7 +10,7 @@ tag:
 head:
   - - meta
     - name: keywords
-      content: jmix,低代码,物流,自动化,数字化,BPM,供应链可视化,运输管理,车队管理,调度管理
+      content: jmix,快速开发平台,物流,自动化,数字化,BPM,供应链可视化,运输管理,车队管理,调度管理
 ---
 
 _随着数字化的兴起，物流业也正在经历前所未有的变局。_

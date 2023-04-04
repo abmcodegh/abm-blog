@@ -1,7 +1,7 @@
 ---
 author: Ada An
 date: 2022-12-23
-title: Postman 进阶技巧
+title: 你也许没有用过的 Postman 进阶技巧
 description: Postman 使用中的一些高级技巧
 category:
   - 其他技术

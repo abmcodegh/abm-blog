@@ -18,7 +18,7 @@ _Jmix 少代码快速开发框架 1.5 版本发布，包括框架和 Studio 的�
 <!-- more -->
 <!-- https://cdn.abmcode.com/zh-cn/jmix/releases -->
 
-![Jmix1.5 发布](./_media/jmix-1.5/jmix_1.5.png) {.center .size-8 .radius .shadow}
+![Jmix1.5 发布](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/jmix-1.5/jmix_1.5.png) {.center .size-8 .radius .shadow}
 
 最近我们发布了 Jmix 的最新 1.5 正式版本。本文中，我们将介绍 1.5 版本中引入的主要新功能和改进。
 

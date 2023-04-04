@@ -1,8 +1,8 @@
 ---
 author: 世开 Coding
 date: 2023-01-18
-title: Jmix 是低代码平台吗？
-description: Jmix 是一个少代码开发平台
+title: Jmix 是不是低代码平台？
+description: Jmix 是一个少代码开发平台，介于低代码和传统开发之间。
 category:
   - Jmix
 tag:

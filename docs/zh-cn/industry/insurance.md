@@ -1,7 +1,7 @@
 ---
 author: 世开 Coding
 date:  2022-11-01
-title: 保险业软件自动化
+title: 保险行业软件自动化
 description: 保险业的自动化解决方案可以简化业务运营流程并提高面向客户的数字化能力。
 category:
   - 行业视角

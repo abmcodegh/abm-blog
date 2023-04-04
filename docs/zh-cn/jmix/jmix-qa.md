@@ -2,7 +2,7 @@
 author: 世开 Coding
 date: 2022-08-07
 title: Jmix FAQ
-description: Jmix 少代码平台的常见问题
+description: Jmix 快速开发平台的常见问题
 category:
   - Jmix
 tag:
@@ -109,7 +109,15 @@ classPlugin:{"target":"class","value":"table-wrapper","idx":0,"class":"abmTable 
 
 另外，Jmix Studio 为新用户提供了 28 天的试用期，可以在 IDEA 中安装了 Jmix 插件之后点击**Request Trial**，查看是否能申请试用：
 
-![Jmix Studio 试用](_media/jmix-qa/subscription-trial.png ":class=center-thirty-image-shadow")
+### Jmix 的 UI 设计有吗？
+
+我们提供 Figma UI 套件。默认包含在**企业版**订阅中。
+
+如果您订阅的是其他版本的 Studio（免费版/快速开发版/学院版）则 Figma UI 套件需要单独购买。价格为 $190（美元）。
+
+Figma 示例和说明在[这里](https://www.figma.com/file/9cv0hY59CO3EVR5JIldnN6/Jmix-Helium-UI-Kit?node-id=919-9153)，提供 Jmix UI 全部的设计元素。
+
+## 培训 {#training}
 
 ## 培训 :id=training
 

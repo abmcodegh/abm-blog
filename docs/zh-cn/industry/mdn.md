@@ -2,13 +2,13 @@
 author: 世开 Coding
 date: 2022-10-15
 title: 应用程序现代化权威指南
-description: <SEO 描述>
+description: 使用快速开发平台对老旧应用系统进行现代化改造
 category:
   - 行业视角
 head:
   - - meta
     - name: keywords
-      content: jmix,老旧系统改造,现代化改造,应用程序现代化,数字化转型,快速开发框架
+      content: jmix,快速开发平台,老旧系统改造,现代化改造,应用程序现代化,数字化转型
 ---
 
 _老旧系统在业务运行中仍然承担了很多的工作。但是当这些系统逐渐进入淘汰的队列时，我们需要选择合适的方法让它实现高效经济地重生。_
