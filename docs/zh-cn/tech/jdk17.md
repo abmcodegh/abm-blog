@@ -1,7 +1,7 @@
 ---
 author: 世开 Coding
 date: 2022-11-22
-title: 是时候考虑升级 JDK 17 了
+title: Spring 官宣！最低支持 JDK 17
 description: 最流行的 Java 开源框架 Spring 在2022年11月16日推出了最新的版本 6，要求 JDK 至少使用 17 版本。
 category:
   - 其他技术

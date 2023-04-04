@@ -1,7 +1,7 @@
 ---
 date: 2022-08-11
 sticky: 100
-title: Jmix 少代码企业级开发平台
+title: Jmix 少代码企业级快速开发平台
 description: Jmix 是一个应用程序全生命周期的少代码 Java 快速开发平台。
 category:
   - Jmix

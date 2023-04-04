@@ -1,8 +1,8 @@
 ---
 author: Bryan Yin
 date: 2023-03-06
-title: Jmix 适合我的项目吗？
-description: 本文介绍了如何评估 Jmix 快速开发框架是否适合你的项目
+title: Jmix 快速开发平台适合我吗？
+description: 本文介绍了如何评估 Jmix Web快速开发框架是否适合你的项目
 category:
   - Jmix
 tag:

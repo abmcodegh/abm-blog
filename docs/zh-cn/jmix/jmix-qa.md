@@ -2,7 +2,7 @@
 author: 世开 Coding
 date: 2022-08-07
 title: Jmix FAQ
-description: Jmix 少代码平台的常见问题
+description: Jmix 快速开发平台的常见问题
 category:
   - Jmix
 tag:
@@ -143,6 +143,14 @@ Jmix 许可价格请参考官网[订阅计划和价格](https://www.jmix.cn/subs
 版本之间的差别请查看我们[订阅计划](https://www.jmix.cn/subscription-plans-and-prices/)网页中的**订阅计划功能对比**部分，需要注意的是，**BPM 流程引擎仅包含在企业开发版**中。
 
 另外，新用户可以直接在 Jmix Studio 中注册，注册完成后自动启用快速开发版 28 天试用。如需使用**企业版试用**，请参考[Jmix 文档::企业版试用](https://docs.jmix.cn/jmix/studio/subscription.html#enterprise-trial)。
+
+### Jmix 的 UI 设计有吗？
+
+我们提供 Figma UI 套件。默认包含在**企业版**订阅中。
+
+如果您订阅的是其他版本的 Studio（免费版/快速开发版/学院版）则 Figma UI 套件需要单独购买。价格为 $190（美元）。
+
+Figma 示例和说明在[这里](https://www.figma.com/file/9cv0hY59CO3EVR5JIldnN6/Jmix-Helium-UI-Kit?node-id=919-9153)，提供 Jmix UI 全部的设计元素。
 
 ## 培训 {#training}
 

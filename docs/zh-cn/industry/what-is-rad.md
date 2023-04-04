@@ -1,7 +1,7 @@
 ---
 author: 世开 Coding
 date: 2022-10-13
-title: 快速应用程序开发
+title: 你知道什么是应用程序快速开发吗？
 description: 快速应用程序开发是什么，与敏捷开发有什么不同
 category:
   - 行业视角
