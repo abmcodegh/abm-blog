@@ -19,7 +19,7 @@ _通常我们需要手动处理外部数据，但是 Jmix 能做到从底层支�
 <!-- more -->
 
 
-![题图](./_media/external-data/external_data_cover.png) {.center .size-8 .radius .shadow}
+![题图](https://cdn.abmcode.com/zh-cn/jmix/tech/_media/external-data/external_data_cover.png) {.center .size-8 .radius .shadow}
 
 <!-- # 大标题 -->
 
@@ -44,7 +44,7 @@ _通常我们需要手动处理外部数据，但是 Jmix 能做到从底层支�
 
 首先，我们在主系统中定义两个 DTO 实体：`Project` 和 `Task`，用 Jmix Studio 可以直接创建 DTO 实体：
 
-![使用代理的方式](./_media/external-data/task_dto.png) {.center .size-5 .radius .shadow}
+![使用代理的方式](https://cdn.abmcode.com/zh-cn/jmix/tech/_media/external-data/task_dto.png) {.center .size-5 .radius .shadow}
 
 然后，在主系统中我们需要定义两个 Services，专门用来对 `Project` 和 `Task` 实体进行 CRUD 操作，而这些操作里面，其实是调用了外部系统提供的 REST 接口，以 `TaskService` 为例：
 
@@ -82,17 +82,17 @@ public class TaskService {
 
 第一种方式是使用数据加载代理和提交代理方法，将原本使用 `DataManager` 进行数据加载和写入的相应方法替换为使用我们自定义的服务:
 
-![使用代理的方式](./_media/external-data/first_way.png) {.center .size-5 .radius }
+![使用代理的方式](https://cdn.abmcode.com/zh-cn/jmix/tech/_media/external-data/first_way.png) {.center .size-5 .radius }
 
 这里，我们选择 `Task` DTO 和它的列表页和编辑页作为示例。
 
 首先，在列表页添加数据加载的代理，在界面选中数据加载器后，双击代理方法中的 `<empty>` 标签，Studio 会自动生成方法并跳转到方法定义，添加自定义逻辑：
 
-![加载数据代理](./_media/external-data/task_load_delegate.gif) {.center .size-10 .radius }
+![加载数据代理](https://cdn.abmcode.com/zh-cn/jmix/tech/_media/external-data/task_load_delegate.gif) {.center .size-10 .radius }
 
 然后，在编辑页添加数据提交代理，这里需要在 XML 中选中 `data` 节点，然后双击生成 `commitDelegate`：
 
-![保存数据代理](./_media/external-data/task_commit_delegate.gif) {.center .size-10 .radius }
+![保存数据代理](https://cdn.abmcode.com/zh-cn/jmix/tech/_media/external-data/task_commit_delegate.gif) {.center .size-10 .radius }
 
 这样就完成了我们需要实现的功能。是不是很简单？
 
@@ -100,7 +100,7 @@ public class TaskService {
 
 Jmix 中，数据存储可以进行自定义，通过自定义的数据存储，可以像处理 JPA 实体一样，使用 `DataManager` 处理 DTO 实体。在检测到 DTO 实体关联到某个自定义存储后，`DataManager` 会将 CRUD 操作都通过代理执行，并且能处理对 DTO 实体的引用。具体实现框架如下：
 
-![使用自定义数据存储的方式](./_media/external-data/second_way.png) {.center .size-5 .radius }
+![使用自定义数据存储的方式](https://cdn.abmcode.com/zh-cn/jmix/tech/_media/external-data/second_way.png) {.center .size-5 .radius }
 
 可以看到，使用这种方式不需要对界面中的实体操作进行拦截，而是将所有对于外部系统的接口调用都交给 `DataManager` 通过数据存储进行分发。
 
