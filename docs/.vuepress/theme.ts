@@ -40,7 +40,7 @@ export default hopeTheme({
   contributors: false,
   lastUpdated: false,
 
-  pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime", "PageView"],
+  pageInfo: ["Date", "Author", "Original", "Category", "Tag", "ReadingTime", "PageView"],
 
   blog: {
     avatar: "/logo128.png",

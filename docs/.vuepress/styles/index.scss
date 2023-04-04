@@ -252,6 +252,11 @@ h2 {
   cursor: pointer;
 }
 
+button.copy {
+  bottom: unset !important;
+  top: 28px !important;
+}
+
 @media screen and (max-width: 800px) {
   .theme-hope-content {
     img {

@@ -39,6 +39,11 @@ export const zhSidebar = sidebar({
           collapsible: true,
           children: [
             {
+              text: "如何方便地处理外部数据？",
+              icon: "article",
+              link: "tech/external-data.md"
+            },
+            {
               text: "扩展组件开发新体验",
               icon: "article",
               link: "jmix-new-dev-way"
