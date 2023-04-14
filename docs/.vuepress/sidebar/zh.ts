@@ -39,6 +39,11 @@ export const zhSidebar = sidebar({
           collapsible: true,
           children: [
             {
+              text: "使用 Spring Data 查询接口",
+              icon: "article",
+              link: "tech/jmix-data-repository.md"
+            },
+            {
               text: "如何方便地处理外部数据？",
               icon: "article",
               link: "tech/external-data.md"

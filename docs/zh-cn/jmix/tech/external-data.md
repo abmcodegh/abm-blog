@@ -3,7 +3,6 @@ author: 世开 Coding
 date: 2023-04-03
 title: 如何将外部数据直接显示在界面？
 description: Jmix Web 快速开发平台是如何集成外部数据的
-comment: false
 category:
   - Jmix
 tag:
@@ -11,7 +10,7 @@ tag:
 head:
   - - meta
     - name: keywords
-      content: jmix,快速开发平台,少代码,低代码,企业级应用开发,Java 快速开发框架,流行 Java 框架
+      content: jmix,快速开发平台,Web 快速开发平台,少代码,低代码,企业级应用开发,Spring 框架
 ---
 
 _通常我们需要手动处理外部数据，但是 Jmix 能做到从底层支持_
@@ -44,7 +43,7 @@ _通常我们需要手动处理外部数据，但是 Jmix 能做到从底层支�
 
 首先，我们在主系统中定义两个 DTO 实体：`Project` 和 `Task`，用 Jmix Studio 可以直接创建 DTO 实体：
 
-![使用代理的方式](https://cdn.abmcode.com/zh-cn/jmix/tech/_media/external-data/task_dto.png) {.center .size-5 .radius .shadow}
+![Studio 创建 DTO](https://cdn.abmcode.com/zh-cn/jmix/tech/_media/external-data/task_dto.png) {.center .size-5 .radius .shadow}
 
 然后，在主系统中我们需要定义两个 Services，专门用来对 `Project` 和 `Task` 实体进行 CRUD 操作，而这些操作里面，其实是调用了外部系统提供的 REST 接口，以 `TaskService` 为例：
 
