@@ -17,7 +17,7 @@ _Spring Data Repository 提供了非常方便的数据访问方式，Jmix 在此
 
 <!-- more -->
 
-![题图](./_media/jmix-data-repo/jmix_data_repo.png) {.center .size-8 .radius .shadow}
+![题图](https://cdn.abmcode.com/zh-cn/jmix/tech/_media/jmix-data-repo/jmix_data_repo.png) {.center .size-8 .radius .shadow}
 
 <!-- # 大标题 -->
 
@@ -37,7 +37,7 @@ _Spring Data Repository 提供了非常方便的数据访问方式，Jmix 在此
 
 我们都知道，接受一个新的快速开发框架并不是一件容易的事，因为每个快速开发框架都有自己的内部逻辑，这些逻辑与通用框架（例如，Spring）不同，从而需要有一定的学习成本。
 
-所以，客户表面上是在问Jmix是否改了Spring的内容，其实是在关心**我原来Spring boot的开发经验还能不能继续用？**因为对于开发人员来说，技术积累恐怕是除了赚钱之外他最关心的事了。
+所以，客户表面上是在问Jmix是否改了Spring的内容，其实是在关心**我原来Spring boot的开发经验还能不能继续用**？因为对于开发人员来说，技术积累恐怕是除了赚钱之外他最关心的事了。
 
 而Jmix给出的答案是：能。
 
@@ -45,7 +45,7 @@ _Spring Data Repository 提供了非常方便的数据访问方式，Jmix 在此
 
 ## Spring Data Repository
 
-先我们简单介绍一下Spring Data Repository。这是 Spring Data JPA 框架中的核心组件之一，简单来说，作用就是：**可以非常方便地对数据进行操作**。
+我们先简单介绍一下Spring Data Repository。这是 Spring Data JPA 框架中的核心组件之一，简单来说，作用就是：**可以非常方便地对数据进行操作**。
 
 以前外事不决问某度，现在外事不决问ChatGPT，这是ChatGPT总结的Spring Data 优点：
 
@@ -55,7 +55,7 @@ _Spring Data Repository 提供了非常方便的数据访问方式，Jmix 在此
 - 易于测试：在使用Spring Data Repository时，您可以轻松地创建仅在测试环境中使用的存储库实现，并注入Repository实例以在测试中运行自定义查询。
 - 事务控制：Spring Data Repository提供了基于注释的事务控制。通过在Repository方法上添加@Transactional注释，可以以声明式方式管理事务边界。这使得数据访问变得更加可靠和一致。
 
-上面这一堆，你肯定没仔细看吧，那我们看一个简单的例子，假设我们有不同运营商之间的FTP访问性能数据，需要按照某些条件查询。：
+上面这一堆，你肯定没仔细看吧，那我们看一个简单的例子，假设我们有不同运营商之间的FTP访问性能数据，需要按照某些条件查询：
 
 ```java
 public interface ViewFtpRepository extends JpaRepository<ViewFtp, Long> {
@@ -65,7 +65,7 @@ public interface ViewFtpRepository extends JpaRepository<ViewFtp, Long> {
             ZonedDateTime end, List<Integer> fromOpers, List<Integer> toOpers);
 }
 ```
-🫸
+
 这里有几个优点：
 1. **定义的是一个接口**。也就是说不需要实现，Spring会自动帮你实现。那些DAO、ServiceImpl，都可以扫扫扔垃圾桶了。
 2. **从方法名解析查询语句**。`findByCollectTimeBetween` 的意思很明显了，就是查找采集时间在两个参数时间之间的 `ViewFTP` 对象。

@@ -73,6 +73,16 @@ Studio 是一款 IntelliJ IDEA 插件。通过 Studio 提供开发阶段的辅�
 
 ![宠物诊所应用截图](https://cdn.abmcode.com/zh-cn/jmix/_media/petclinic.png) {.center .size-9 .radius .shadow}
 
+另外，Jmix 还有一个「书店」的示例项目，截图如下：
+
+![书店截图1](https://cdn.abmcode.com/zh-cn/jmix/_media/evaluate-jmix/bookstore_01.jpeg) {.center .size-9 .radius }
+
+![书店截图2](https://cdn.abmcode.com/zh-cn/jmix/_media/evaluate-jmix/bookstore_02.jpeg) {.center .size-9 .radius }
+
+![书店截图3](https://cdn.abmcode.com/zh-cn/jmix/_media/evaluate-jmix/bookstore_03.jpeg) {.center .size-9 .radius }
+
+![书店截图4](https://cdn.abmcode.com/zh-cn/jmix/_media/evaluate-jmix/bookstore_04.jpeg) {.center .size-9 .radius }
+
 ## 为什么不直接用 Spring Boot？{#whyjmix}
 
 在底层框架和上层框架之间选择需要考虑的唯一因素就是，上层框架究竟给我们带来了什么好处？Jmix 基于 Spring boot，采用非侵入式策略构建。也就是说 Jmix 并没有破坏原生 Spring boot 框架的内容，并可以使用其广泛的生态。同时，在这个框架之上，提供了最佳实践和企业级软件的开发便利：
