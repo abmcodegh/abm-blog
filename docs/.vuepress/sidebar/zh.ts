@@ -39,6 +39,11 @@ export const zhSidebar = sidebar({
           collapsible: true,
           children: [
             {
+              text: "Jmix实现多租户应用",
+              icon: "article",
+              link: "tech/multitenancy.md"
+            },
+            {
               text: "使用 Spring Data 查询接口",
               icon: "article",
               link: "tech/jmix-data-repository.md"
