@@ -97,13 +97,13 @@ public class User implements JmixUserDetails, HasTimeZone, AcceptsTenant {
 }
 ```
 
+**Jmix中的很多扩展组件，包括报表、BPM、日志等，也都自动支持多租户功能**。
+
 ### 安全配置
 
-在多租户系统中，租户的内部数据是至关重要的，Jmix框架在底层通过用户的租户ID自动使用系统的安全机制。但是在配置租户角色时，**一定不能选中对租户ID修改的支持**。
+在多租户系统中，租户的内部数据是至关重要的，Jmix框架在底层通过用户的租户ID自动使用系统的安全机制。但是在配置租户角色时，**一定不能选中对租户ID修改的支持**。Jmix的安全机制在租户范围内起作用。
 
 ![排除对租户Id的修改](https://cdn.abmcode.com/zh-cn/jmix/tech/_media/multitenancy/exclude_tid.png) {.center .size-5 .radius .shadow}
-
-Jmix的安全机制在租户范围内起作用，系统中的其他模块，包括报表、BPM、日志等，也都自动支持多租户。
 
 ### 云部署支持
 
@@ -128,4 +128,3 @@ Jmix提供了一个多租户的示例程序 - Jmix书店：
 ## 总结
 
 使用Jmix可以很容易在共享数据库上创建多租户应用，其核心框架和扩展组件均支持多租户系统。Jmix提供安全管理的统一机制，包括支持租户特定的角色。在DevOps和运维方面，Jmix支持云端部署，支持弹性资源伸缩，并且支持超级用户，可以在运行时对定制化需求做配置。
-
