@@ -4,10 +4,9 @@ date: 2023-05-10
 title: 21 天上线网站CMS系统
 description: 使用Jmix Web快速开发框架，仅用21天构建功能完善的CMS系统
 category:
-  - ca0
-  - ca1
+  - Jmix
 tag:
-  - tag1
+  - 案例
 head:
   - - meta
     - name: keywords
