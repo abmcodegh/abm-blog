@@ -34,6 +34,18 @@ export const zhSidebar = sidebar({
           link: "jmix-qa"
         },
         {
+          text: "案例",
+          icon: "geometry",
+          collapsible: true,
+          children: [
+            {
+              text: "快速构建CMS后端服务",
+              icon: "article",
+              link: "case/jmix-as-be.md"
+            }
+          ]
+        },
+        {
           text: "技术文章",
           icon: "creative",
           collapsible: true,
