@@ -12,13 +12,8 @@ let footer = [
 ].join('');
 
 export default hopeTheme({
-  themeColor: {
-    blue: "#303a9a",
-    orange: "#fe8a34",
-    green: "#60AD80",
-    red: "#fb0067",
-  },
-
+  themeColor:true,
+  
   fullscreen: true,
 
   hostname: "https://blog.abmcode.com",
@@ -92,7 +87,7 @@ export default hopeTheme({
 
   plugins: {
     blog: {
-      autoExcerpt: true,
+      excerpt: true,
     },
     photoSwipe: {
       selector: ".theme-hope-content :not(a) > img,.footer img"
@@ -139,10 +134,10 @@ export default hopeTheme({
       echarts: true,
       flowchart: true,
       gfm: true,
-      imageSize: true,
+      imgSize: true,
       include: true,
       katex: true,
-      imageLazyload: true,
+      imgLazyload: true,
       mark: true,
       mermaid: true,
       playground: {

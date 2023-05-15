@@ -1,6 +1,6 @@
 ---
 home: true
-layout: Blog
+layout: BlogHome
 icon: home
 title: 世开 Coding
 heroImage: /Coding_512x100.png

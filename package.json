@@ -11,10 +11,10 @@
     "cdn": "node scripts/deploy.js ./env-docsify.json"
   },
   "devDependencies": {
-    "@vuepress/client": "2.0.0-beta.53",
-    "@vuepress/plugin-register-components": "2.0.0-beta.53",
-    "vue": "^3.2.29",
-    "vuepress": "2.0.0-beta.53",
-    "vuepress-theme-hope": "2.0.0-beta.129"
+    "@vuepress/client": "2.0.0-beta.62",
+    "@vuepress/plugin-register-components": "2.0.0-beta.62",
+    "vue": "^3.3.2",
+    "vuepress": "2.0.0-beta.62",
+    "vuepress-theme-hope": "2.0.0-beta.210"
   }
 }
