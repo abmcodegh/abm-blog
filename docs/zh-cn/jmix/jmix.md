@@ -29,13 +29,16 @@ head:
 2. [Jmix 是低代码吗？](jmix-less-code.md)
 3. [Jmix - 开发业务系统的少代码平台](jmix-introduction.md) - Jmix 的详细介绍。
 4. [FAQ](jmix-qa.md) - 关于 Jmix 的一些常见问题。
-5. 技术文章：
-   1. [扩展组件开发新体验](jmix-new-dev-way.md) - Jmix 扩展组件的一体化开发方式
-   2. [REST API 的两种实现](jmix-rest-diff-ways.md) - Jmix 中 RESTful API 的两种开发方式
-   3. [服务端驱动 Web UI 开发](server-side-ui.md) - Jmix 中的后端驱动 UI 开发方式
-6. 里程碑：
-   1. [Jmix 1.4](./releases/jmix-1.4.md)
-   2. [Jmix 1.3](./releases/jmix-1.3.md)
-
-
-
+5. 案例：
+   1. [快速构建CMS后端服务](./case/jmix-as-be.md)
+6. 技术文章：
+   1. [扩展组件开发新体验](jmix-new-dev-way.md)
+   2. [REST API 的两种实现](jmix-rest-diff-ways.md)
+   3. [服务端驱动 Web UI 开发](server-side-ui.md)
+   4. [UI 如何直接展示外部数据](./tech/external-data.md)
+   5. [多租户实现低成本易扩展](./tech/multitenancy.md)
+   6. [使用Spring Data Repository](./tech/jmix-data-repository.md)
+7. 里程碑：
+   1. [Jmix 1.5](./releases/jmix-1.5.md)
+   2. [Jmix 1.4](./releases/jmix-1.4.md)
+   3. [Jmix 1.3](./releases/jmix-1.3.md)

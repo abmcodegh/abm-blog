@@ -159,21 +159,31 @@ export const zhSidebar = sidebar({
       ]
     },
     {
-      text: "信息前沿",
+      text: "技术边界",
       icon: "update",
       prefix: "/zh-cn/tech/",
       collapsible: true,
       children: [
         {
-          text: "JDK 17",
+          text: "JDK 17 or not",
           icon: "article",
-          link: "jdk17"
+          link: "jdk17.md"
         },
         {
-          text: "Postman 进阶技巧",
+          text: "Postman 进阶",
           icon: "article",
-          link: "postman"
-        }
+          link: "postman.md"
+        },
+        {
+          text: "设计模式小抄",
+          icon: "article",
+          link: "design-pattern.md"
+        },
+        {
+          text: "Java 企业市场报告（2023）",
+          icon: "article",
+          link: "vaadin-java-report-2023.md"
+        },
       ]
     }
   ],

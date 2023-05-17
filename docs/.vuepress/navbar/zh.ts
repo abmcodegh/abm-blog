@@ -59,5 +59,11 @@ export const zhNavbar = navbar([
     icon: "question",
     link: "/zh-cn/jmix/jmix-qa",
   },
+  {
+    text: "联系我们",
+    icon: "light",
+    link: "/zh-cn/abmcode.md",
+  },
+
 
 ]);
