@@ -105,6 +105,15 @@ h2 {
       color: var(--theme-list-color);
     }
   }
+  p{
+    padding: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei UI, Microsoft YaHei, Arial, sans-serif;
+    letter-spacing: 0.034em;
+    line-height: 1.9;
+    word-spacing: 2px;
+  
+    word-wrap: break-word !important;
+  }
 }
 
 .sidebar {

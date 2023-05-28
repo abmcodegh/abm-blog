@@ -17,7 +17,7 @@ _Java已死？No No No，Java正在经历云原生复兴。_
 
 <!-- more -->
 
-![题图](_media/vjr_23/java_report_cover.png)  {.center .size-8 .radius .shadow}
+![题图](https://cdn.abmcode.com/zh-cn/tech/_media/vjr_23/java_report_cover.png)  {.center .size-8 .radius .shadow}
 
 <!-- # 大标题 -->
 
@@ -31,7 +31,7 @@ Java，首次发布于1996年，在2000年代初，互联网大爆炸使得Java�
 
 从818位受访者数据统计来看，企业仍然在Java方面有持续投入的趋势，包括新的全栈Java应用（70%）、新的Java后端应用（69%），以及现有Java应用的现代化改造（57%）。Java应用的现代化改造的主要目的是为了适应云原生，将已有的系统迁移至云端。
 
-![企业持续投入Java](_media/vjr_23/chart-01.png)
+![企业持续投入Java](https://cdn.abmcode.com/zh-cn/tech/_media/vjr_23/chart-01.png) {.center .size-8 .radius .shadow}
 
 然而在企业级Java应用的开发中，受访者又面临着哪些困难呢？
 
@@ -39,11 +39,11 @@ Java，首次发布于1996年，在2000年代初，互联网大爆炸使得Java�
 
 与UX旗鼓相当的另一个困难就是升级技术栈（同样为81%）这个困难可能源自Java庞大的生态以及数量众多的框架和库。排名第三的困难则是保证应用的安全性。
 
-![开发Java应用的难点](_media/vjr_23/chart-011.png)
+![开发Java应用的难点](https://cdn.abmcode.com/zh-cn/tech/_media/vjr_23/chart-011.png) {.center .size-8 .radius .shadow}
 
 你认为Java应用开发中，最难的是哪部分呢？欢迎在评论区讨论！
 
-如果你也面临UI构建困难、技术栈升级困难、应用安全等问题，不防了解一下[Jmix](https://www.jmix.cn)，基于Java最佳实践打造的Web快速开发平台，使用Java也能写UI，并且开箱具有企业级安全机制：
+如果你也面临UI构建困难、技术栈升级困难、应用安全等问题，不妨了解一下[Jmix](https://www.jmix.cn)，基于Java最佳实践打造的Web快速开发平台，使用Java也能写UI，并且开箱具有企业级安全机制。
 
 ## 发现2：Java应用的现代化改造是重中之重
 
@@ -51,13 +51,13 @@ Java，首次发布于1996年，在2000年代初，互联网大爆炸使得Java�
 
 应用进行现代化改造的内容一般包括：技术栈升级、使用新的框架，以及进行云原生部署等。
 
-![需要进行现代化改造](_media/vjr_23/chart-02.png)
+![需要进行现代化改造](https://cdn.abmcode.com/zh-cn/tech/_media/vjr_23/chart-02.png) {.center .size-8 .radius .shadow}
 
 那么，为什么要对已有的应用进行现代化改造呢？受访者按照优先级选出了自己认为进行现代化改造的动机和原因。
 
 其中，有83%的受访者表示，应用程序的可维护性是促使他们进行现代化改造的三大原因之一。并且有近三分之一（32%）的受访者表示，可维护性是他们首要的动机和考量。应用程序的安全性和成本支出分列第二三名。
 
-![现代化改造的动机](_media/vjr_23/chart-03.png)
+![现代化改造的动机](https://cdn.abmcode.com/zh-cn/tech/_media/vjr_23/chart-03.png) {.center .size-8 .radius .shadow}
 
 你有没有正在维护一个老系统？公司为什么不进行该系统的现代化改造呢？欢迎在评论区讨论！
 
@@ -65,7 +65,7 @@ Java，首次发布于1996年，在2000年代初，互联网大爆炸使得Java�
 
 Java应用发展的下一步就是将应用迁移至云原生的架构。从调研结果看，已经有超过三分之一的Java应用使用了公有云部署，并且越来越多的Java应用正在部署至公有云、容器、k8s，以及serverless环境。
 
-![Java应用的部署环境](_media/vjr_23/chart-04.png)
+![Java应用的部署环境](https://cdn.abmcode.com/zh-cn/tech/_media/vjr_23/chart-04.png) {.center .size-8 .radius .shadow}
 
 在ToC领域，通过SaaS提供“部署一次，随处访问”的体验在互联网和移动设备高度发达的今天已经不是什么新鲜事了。
 
@@ -75,13 +75,13 @@ Java应用发展的下一步就是将应用迁移至云原生的架构。从调�
 
 Spring Boot将成为最大赢家，调研结果显示，有多达50%的净量受访者表示会加大对Spring Boot的使用。除此之外，Vaadin Flow，Spring Framework，Quarkus，Hilla和React等框架的采用率预计也将净增加。
 
-![Java技术栈的计划投入](_media/vjr_23/chart-05.png)
+![Java技术栈的计划投入](https://cdn.abmcode.com/zh-cn/tech/_media/vjr_23/chart-05.png) {.center .size-8 .radius .shadow}
 
 一年多以前，Java的一个重大LTS版本17发布了。而Spring Boot的最新发布版Spring Boot 3也官宣将最低支持JDK17。从调研的结果看，目前已经有将近四分之三的企业已经升级到Java17或准备在未来一年中升级。
 
-![企业升级Java17的计划](_media/vjr_23/chart-06.png)
+![企业升级Java17的计划](https://cdn.abmcode.com/zh-cn/tech/_media/vjr_23/chart-06.png) {.center .size-8 .radius .shadow}
 
-如果你还不确定要不要升级到Java17，请看我们的另一篇文章：
+如果你还不确定要不要升级到Java17，请看我们的另一篇文章：[Spring 官宣！最低支持 JDK 17](jdk17.md)
 
 ## 结论
 
