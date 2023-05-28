@@ -17,7 +17,7 @@ _Jmix 2.0 即将发布，团队决定延长经典UI的免费支持时限_
 
 <!-- more -->
 
-![Jmix1.3 发布](./_media/cues/cues_cover.png) {.center .size-8 .radius .shadow}
+![Jmix1.3 发布](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/cues/cues_cover.png) {.center .size-8 .radius .shadow}
 
 ::: info
 **经典UI（Classic UI）** 指的是以Vaadin 8为技术框架的Jmix UI，包含在 Jmix 1.0~1.5+ 版本中。**Flow UI** 是指以Vaadin 24为技术框架的新一代Jmix UI，包含在Jmix 1.5~2.0+ 版本中。
@@ -33,7 +33,7 @@ _Jmix 2.0 即将发布，团队决定延长经典UI的免费支持时限_
 
 因此，我们决定将未来的发布计划分为两个分支。主分支开发将照常进行，以4个月为周期：1.5 → 2.0（2023年6月）→ 2.1（2023年10月）→ 2.x。同时，我们将继续开发1.x分支并发布几个新版本：1.5 → 1.6（2024年）→ 1.7（2025年）。版本1.7将是版本1.x的最后一个版本，并成为LTS版本。因此，使用经典UI的项目将获得五年的免费支持，直到 **2028** 年。
 
-![Jmix版本免费支持计划](./_media/cues/cues_timeline.jpg) {.center .size-8 .shadow}
+![Jmix版本免费支持计划](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/cues/cues_timeline.jpg) {.center .size-8 .shadow}
 
 1.x分支的目标不仅仅是提供关键修复，而且还从主分支移植重要的改进。在次版本1.6和1.7中，我们将计划发布一些无法包含在补丁版本中的具有一定风险的功能。这两个版本不会遵循正常的4个月周期，而是在累积特定数量的功能时发布，大约每年一次。
 
