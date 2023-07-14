@@ -17,7 +17,7 @@ _Jmix 2.0 即将发布，团队决定延长经典UI的免费支持时限_
 
 <!-- more -->
 
-![Jmix1.3 发布](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/cues/cues_cover.png) {.center .size-8 .radius .shadow}
+![Jmix 延长免费支持 Classic UI](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/cues/cues_cover.png) {.center .size-8 .radius .shadow}
 
 ::: info
 **经典UI（Classic UI）** 指的是以Vaadin 8为技术框架的Jmix UI，包含在 Jmix 1.0~1.5+ 版本中。**Flow UI** 是指以Vaadin 24为技术框架的新一代Jmix UI，包含在Jmix 1.5~2.0+ 版本中。
