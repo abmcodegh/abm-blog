@@ -29,6 +29,11 @@ export const zhSidebar = sidebar({
           link: "jmix-less-code"
         },
         {
+          text: "Jmix 如何集成 BPMN",
+          icon: "article",
+          link: "jmix-bpm"
+        },
+        {
           text: "FAQ",
           icon: "question",
           link: "jmix-qa"
@@ -92,6 +97,11 @@ export const zhSidebar = sidebar({
               text:"延长经典UI免费支持期限",
               icon:"activity",
               link:"classic-ui-ext-support"
+            },
+            {
+              text: "Jmix 2.1",
+              icon: "activity",
+              link: "jmix-2.1"
             },
             {
               text: "Jmix 2.0",

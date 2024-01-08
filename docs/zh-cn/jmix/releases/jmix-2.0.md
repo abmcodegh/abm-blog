@@ -44,35 +44,35 @@ Jmix 2.0中影响最大的变化是技术栈的更新。现在运行时依赖基
 
 BPM扩展组件现在具有运行时全功能的BPMN建模器以及管理UI：
 
-![](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/jmix-2.0/jmix2_1.png) {.center .size-8}
+![BPM 运行时建模器](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/jmix-2.0/jmix2_1.png) {.center .size-8}
 
 工作日历扩展组件的新UI：
 
-![](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/jmix-2.0/jmix2_2.png) {.center .size-8 }
+![工作日历新UI](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/jmix-2.0/jmix2_2.png) {.center .size-8 }
 
 Email 历史记录UI：
 
-![](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/jmix-2.0/jmix2_3.png) {.center .size-8}
+![电子邮件历史记录UI](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/jmix-2.0/jmix2_3.png) {.center .size-8}
 
 报表设计器在低分辨率的屏幕中更简洁易用：
 
-![](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/jmix-2.0/jmix2_4.png) {.center .size-8}
+![低分辨率报表设计器](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/jmix-2.0/jmix2_4.png) {.center .size-8}
 
 为了在大多数情况下提供简洁的UI，报表设计器中一个带区默认只有单一数据集。但是，如果勾选 *多数据集* 复选框，设计器将切换到更复杂的视图：
 
-![](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/jmix-2.0/jmix2_5.png) {.center .size-8 .shadow}
+![多数据集报表设计器](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/jmix-2.0/jmix2_5.png) {.center .size-8 .shadow}
 
 ## 通用过滤器组件
 
 `genericFilter` 组件的功能已经完善，支持在设计时和运行时创建配置和自定义条件。运行时的配置和自定义条件可以交由最终用户管理：
 
-![](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/jmix-2.0/jmix2_6.png) {.center .size-8}
+![通用过滤器](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/jmix-2.0/jmix2_6.png) {.center .size-8}
 
 ## 代码编辑器组件
 
 基于Ace编辑器的新 `codeEditor` 组件支持用户查看和编辑带有语法高亮显示的代码。代码编辑器还有一些高级功能，如不同的颜色主题：
 
-![](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/jmix-2.0/jmix2_7.png) {.center .size-8 .shadow}
+![代码编辑器](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/jmix-2.0/jmix2_7.png) {.center .size-8 .shadow}
 
 与许多其他Jmix UI组件一样，可以很容易地与数据模型进行绑定，以编辑存储在实体属性中的代码。
 
@@ -80,7 +80,7 @@ Email 历史记录UI：
 
 Web应用中有一个常见的问题，当用户意外关闭浏览器标签页时，已经输入的数据会丢失。现在，当展示实体详细信息视图时，如果用户尝试关闭浏览器标签页，浏览器会显示有关离开页面的标准确认弹窗：
 
-![](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/jmix-2.0/jmix2_8.png) {.center .size-4}
+![阻止弹窗关闭](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/jmix-2.0/jmix2_8.png) {.center .size-4}
 
 可以使用 `setPreventBrowserTabClosing()` 方法在任何视图中启用或禁用此行为。
 
@@ -104,17 +104,17 @@ Studio现在支持通过几个简单的步骤来完成云部署，这些步骤�
 
 **Jmix**工具窗口现在显示一个包含项目中定义的所有Spring bean的节点：
 
-![](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/jmix-2.0/jmix2_9.png) {.center .size-8 .shadow}
+![Jmix工具窗口Bean节点](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/jmix-2.0/jmix2_9.png) {.center .size-8 .shadow}
 
 还可以使用下面这个选项对bean和其他元素按包名分组：
 
-![](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/jmix-2.0/jmix2_a.png) {.center .size-8 .shadow}
+![按包名分组](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/jmix-2.0/jmix2_a.png) {.center .size-8 .shadow}
 
 **Beans**部分仅显示带有 `@Component` 或 `@Service` 注解的bean，不显示在Java配置中使用 `@Bean` 注解创建的bean。
 
 **Inject**对话框现在显示项目classpath中定义的所有bean，包括Java配置中使用 `@Bean` 注解创建的bean。**Other Beans**部分有智能分组：
 
-![](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/jmix-2.0/jmix2_b.png) {.center .size-8}
+![注入智能分组](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/jmix-2.0/jmix2_b.png) {.center .size-8}
 
 在Jmix论坛上有一个帖子，用户抱怨Studio生成的代码会收到IDEA的警告，类似“某些东西可以有 `final` 修饰符”。我们认为这是一个合理的要求，Studio应该遵循IDEA环境的代码检查。因此，所有生成的代码现在都包含推荐的 `final` 修饰符。如果你不需要，可以修改Jmix插件的设置禁用此选项。
 
@@ -124,7 +124,7 @@ Studio现在支持通过几个简单的步骤来完成云部署，这些步骤�
 
 如果你的项目中包含 [BPM](https://docs.jmix.cn/jmix/bpm/index.html) 扩展组件，则Jmix工具窗口现在能展示BPM节点。该节点包含BPMN流程（Processes）、流程草稿（Process Drafts）以及DMN表格：
 
-![](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/jmix-2.0/jmix2_c.png) {.center .size-8 .shadow}
+![Studio中的BPM设计器](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/jmix-2.0/jmix2_c.png) {.center .size-8 .shadow}
 
 流程可以在流程和流程草稿文件夹之间互相拷贝，通过建模器窗口顶部的按钮操作即可。这样可以组织一个简单的工作流程：在草稿文件夹中定义流程，流程定义完成后可以复制到流程文件夹。位于流程文件夹中的所有流程定义都将在下次应用程序启动时自动部署。如果部署出现问题，还可以将流程复制回草稿文件夹，然后从流程文件夹删除，以便应用程序能顺利启动。
 
