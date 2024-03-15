@@ -99,6 +99,11 @@ export const zhSidebar = sidebar({
               link:"classic-ui-ext-support"
             },
             {
+              text: "Jmix 2.2",
+              icon: "activity",
+              link: "jmix-2.2"
+            },
+            {
               text: "Jmix 2.1",
               icon: "activity",
               link: "jmix-2.1"

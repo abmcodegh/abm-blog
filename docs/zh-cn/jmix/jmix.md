@@ -39,7 +39,8 @@ head:
    5. [多租户实现低成本易扩展](./tech/multitenancy.md)
    6. [使用Spring Data Repository](./tech/jmix-data-repository.md)
 7. 里程碑：
-   1. [Jmix 2.1](./releases/jmix-2.1.md)
-   2. [Jmix 2.0](./releases/jmix-2.0.md)
-   3. [Jmix 1.5](./releases/jmix-1.5.md)
+   1. [Jmix 2.2](./releases/jmix-2.2.md)
+   2. [Jmix 2.1](./releases/jmix-2.1.md)
+   3. [Jmix 2.0](./releases/jmix-2.0.md)
+   4. [Jmix 1.5](./releases/jmix-1.5.md)
 
