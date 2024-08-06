@@ -94,9 +94,9 @@ export const zhSidebar = sidebar({
           icon: "ability",
           children: [
             {
-              text:"延长经典UI免费支持期限",
-              icon:"activity",
-              link:"classic-ui-ext-support"
+              text: "Jmix 2.3",
+              icon: "activity",
+              link: "jmix-2.3"
             },
             {
               text: "Jmix 2.2",
@@ -112,6 +112,11 @@ export const zhSidebar = sidebar({
               text: "Jmix 2.0",
               icon: "activity",
               link: "jmix-2.0"
+            },
+            {
+              text:"延长经典UI免费支持期限",
+              icon:"activity",
+              link:"classic-ui-ext-support"
             },
             {
               text: "Jmix 1.5",

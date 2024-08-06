@@ -17,7 +17,7 @@ _Jmix 少代码快速开发框架 2.2 版本发布，包括框架和 Studio 的�
 
 <!-- more -->
 
-![Jmix2.2 发布](./_media/jmix-2.2/jmix_2.2.png) {.center .size-8 .radius .shadow}
+![Jmix2.2 发布](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/jmix-2.2/jmix_2.2.png) {.center .size-8 .radius .shadow}
 
 我们最近发布了 Jmix 的 2.2 版本。这篇博客中，我们将介绍这个新版本中增加的新功能和改进。
 
@@ -68,7 +68,7 @@ _Jmix 少代码快速开发框架 2.2 版本发布，包括框架和 Studio 的�
 
 可以看到，图表通过 `source` 元素关联了数据容器，并在 `series` 元素中定义如何显示数据。生成的图表如下：
 
-![ECharts 图表](_media/jmix-2.2/charts_1.png) {.center .size-8 .radius .shadow}
+![ECharts 图表](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/jmix-2.2/charts_1.png) {.center .size-8 .radius .shadow}
 
 我们尝试让 XML 和 Java 的图表 API 尽可能接近 ECharts 的原生 JavaScript API，这样，通过参考 ECharts 的文档，可以直接在 Jmix 中配置图表了。
 
@@ -104,11 +104,11 @@ private void addMultiPolygon(VectorSource vectorSource) {
 
 地图中显示如下：
 
-![地图中的多边形](_media/jmix-2.2/maps_1.png) {.center .size-8 .radius .shadow}
+![地图中的多边形](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/jmix-2.2/maps_1.png) {.center .size-8 .radius .shadow}
 
 聚类功能支持通过合并功能在地图上显示大量标记。在下面的示例中，展示了罗马人建立的著名城市：
 
-![地图中的标记](_media/jmix-2.2/maps_2.png) {.center .size-8 .radius .shadow}
+![地图中的标记](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/jmix-2.2/maps_2.png) {.center .size-8 .radius .shadow}
 
 只需将矢量数据源放入视图 XML 中的 `cluster` 元素中即可实现：
 
@@ -130,7 +130,7 @@ private void addMultiPolygon(VectorSource vectorSource) {
 
 相同的数据也可以用热力图展示，值用颜色表示：
 
-![地图中的热力图](_media/jmix-2.2/maps_3.png) {.center .size-8 .radius .shadow}
+![地图中的热力图](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/jmix-2.2/maps_3.png) {.center .size-8 .radius .shadow}
 
 热力图通过特定的 `heatmap` 图层配置，该图层自己的数据源连接到同一数据容器：
 
@@ -152,7 +152,7 @@ private void addMultiPolygon(VectorSource vectorSource) {
 
 为了缩短在 Studio 中开发业务流的反馈环路时间，我们实现了将流程定义热部署到正在运行的应用程序中的功能。在 BPMN 设计器的顶部面板中有 _Hot Deploy Process_ 按钮。成功部署流程后，应用程序会在日志中打印一条消息：
 
-![BPM 流程热部署](_media/jmix-2.2/bpm_1.png) {.center .size-8 .radius .shadow}
+![BPM 流程热部署](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/jmix-2.2/bpm_1.png) {.center .size-8 .radius .shadow}
 
 Studio 中的流程表单向导现在可以为流程的启动事件生成表单。表单中将包含一个用于启动流程的按钮，该按钮调用流程引擎的 API。
 
@@ -162,7 +162,7 @@ Studio 中的流程表单向导现在可以为流程的启动事件生成表单�
 
 新富文本编辑器组件基于 [Quill](https://quilljs.com/) JavaScript 库构建，支持编辑文本的格式并将其保存为 HTML：
 
-![富文本编辑器](_media/jmix-2.2/rich_text_editor_1.png) {.center .size-8 .radius .shadow}
+![富文本编辑器](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/jmix-2.2/rich_text_editor_1.png) {.center .size-8 .radius .shadow}
 
 该组件是数据感知的，可以与数据模型关联：
 
@@ -187,7 +187,7 @@ Studio 中的流程表单向导现在可以为流程的启动事件生成表单�
 
 菜单搜索的实际效果：
 
-![应用程序菜单搜索](_media/jmix-2.2/menu_filter.gif) {.center .size-8 .shadow}
+![应用程序菜单搜索](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/jmix-2.2/menu_filter.gif) {.center .size-8 .shadow}
 
 主视图的另一个改进是能够在没有子视图打开时以声明方式定义其展示的内容。使用 `appLayout` 组件的 `initialLayout` 元素：
 
@@ -203,11 +203,11 @@ Studio 中的流程表单向导现在可以为流程的启动事件生成表单�
 
 应用程序界面如下：
 
-![应用程序初始视图](_media/jmix-2.2/initial_layout.png) {.center .size-8 }
+![应用程序初始视图](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/jmix-2.2/initial_layout.png) {.center .size-8 }
 
 还有一点，这个页面中大家最期待的改进就是横向主菜单：
 
-![应用程序顶部菜单栏](_media/jmix-2.2/top_menu.png) {.center .size-8 }
+![应用程序顶部菜单栏](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/jmix-2.2/top_menu.png) {.center .size-8 }
 
 由 `horizontalMenu` 组件实现，该组件从同一 `menu.xml` 中获取菜单的结构。因此，项目中可以随时将标准的竖向 `listMenu` 替换为顶部横向菜单。最简单的方法是点击 _New → View_，然后选择 _Main view with top menu_ 模板。如果你在向导的第二步中勾选了 _Use as default main view_ 复选框，Studio 会自动在 `jmix.ui.main-view-id` 应用程序属性和所有视图的 `@Route` 注解的 `layout` 属性中设置新的主视图，例如：
 
@@ -225,7 +225,7 @@ Studio 中的流程表单向导现在可以为流程的启动事件生成表单�
 
 还有一个有用的功能是新的 `gridColumnVisibility` 组件，用户能够隐藏和显示列：
 
-![DataGrid 列显示控制](_media/jmix-2.2/data_grid_column_visibility.gif) {.center .size-8 .shadow}
+![DataGrid 列显示控制](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/jmix-2.2/data_grid_column_visibility.gif) {.center .size-8 .shadow}
 
 ## 通用过滤器支持集合属性
 
@@ -235,9 +235,9 @@ Studio 中的流程表单向导现在可以为流程的启动事件生成表单�
 
 在下面的示例中，用户列表按链接 `steps` 集合的 `completedDate` 属性进行筛选：
 
-![通用过滤器集合属性过滤 - 配置](_media/jmix-2.2/generic_filter_1.png) {.center .size-8 }
+![通用过滤器集合属性过滤 - 配置](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/jmix-2.2/generic_filter_1.png) {.center .size-8 }
 
-![通用过滤器集合属性过滤 - 结果](_media/jmix-2.2/generic_filter_2.png) {.center .size-8 }
+![通用过滤器集合属性过滤 - 结果](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/jmix-2.2/generic_filter_2.png) {.center .size-8 }
 
 ## 提升构建速度
 
@@ -251,7 +251,7 @@ Studio 中的流程表单向导现在可以为流程的启动事件生成表单�
 
 例如，如果要在用户点击按钮时运行报表，则可以先生成按钮点击事件监听器，然后将 _Run report using UiReportRunner_ 代码段拖放到监听器中。Studio 将提示您指定需要运行的报表，并为您生成相应的代码：
 
-![报表组件辅助代码段](_media/jmix-2.2/reports_code_snippet.gif) {.center .size-8 .shadow}
+![报表组件辅助代码段](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/jmix-2.2/reports_code_snippet.gif) {.center .size-8 .shadow}
 
 生成的代码可以正常工作，也可以作为进一步开发的样板代码。
 
@@ -265,7 +265,7 @@ Studio 中的流程表单向导现在可以为流程的启动事件生成表单�
 
 在以下截屏视频中，“编辑实体属性”向导创建了一个 `formLayout`，其中包含数据容器中关联的字段：
 
-![通过向导添加复杂页面组件](_media/jmix-2.2/edit_entity_attributes_wizard.gif) {.center .size-8 .shadow}
+![通过向导添加复杂页面组件](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/jmix-2.2/edit_entity_attributes_wizard.gif) {.center .size-8 .shadow}
 
 此功能目前还处于实验阶段，我们计划未来会添加更多向导，以及考虑在各种场景中的使用。
 
