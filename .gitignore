@@ -5,6 +5,7 @@ blog.tar
 node_modules/
 
 .private/
+.idea/
 
 docs/.vuepress/.cache/
 docs/.vuepress/.temp/
