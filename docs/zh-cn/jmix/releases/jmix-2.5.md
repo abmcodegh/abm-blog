@@ -17,7 +17,7 @@ _Jmix 少代码快速开发框架 2.5 版本发布，包括框架和 Studio 的�
 
 <!-- more -->
 
-![Jmix2.5 发布](./_media/jmix-2.5/jmix_2.5.png) {.center .size-8 .radius .shadow}
+![Jmix2.5 发布](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/jmix-2.5/jmix_2.5.png) {.center .size-8 .radius .shadow}
 
 Jmix 团队很高兴宣布 Jmix 2.5 版本正式发布。此版本带来了许多新功能、改进与更新，目的在于提升开发效率。该版本主要关注开发生产力的提升、提供更多扩展和集成的选项以及引入新的功能。完整变更说明及升级指南请访问文档中的 [最近更新](https://docs.jmix.cn/jmix/whats-new/index.html) 页面。
 
@@ -30,7 +30,7 @@ Jmix 团队很高兴宣布 Jmix 2.5 版本正式发布。此版本带来了许�
 
 消息的生成流程基于 **Apache FreeMarker** 模板引擎，支持 HTML 与纯文本模板。并集成了 **GrapesJS** 可视化编辑器，可通拖放预定义的 HTML 模块快速设计模板：
 
-![消息模板](./_media/jmix-2.5/msg_tmplt.png) {.center .size-8 }
+![消息模板](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/jmix-2.5/msg_tmplt.png) {.center .size-8 }
 
 该插件支持与 Jmix 的其他扩展组件（多租户、邮件发送、通知）集成。
 
@@ -39,13 +39,13 @@ Jmix 团队很高兴宣布 Jmix 2.5 版本正式发布。此版本带来了许�
 
 **Tabbed App Mode** 扩展组件（当前为试验版本）支持在主视图内以独立标签页形式打开应用的视图，提供类似桌面企业应用的整合导航体验：
 
-![多标签视图](./_media/jmix-2.5/tab_window.png) {.center .size-8}
+![多标签视图](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/jmix-2.5/tab_window.png) {.center .size-8}
 
 ## 地图对象编辑
 
 **Maps** 扩展组件新增对矢量图层要素的选取、移动与修改，方便直接在应用中编辑地图数据：
 
-![地图要素编辑](./_media/jmix-2.5/map_edit.gif) {.center .size-8  .shadow}
+![地图要素编辑](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/jmix-2.5/map_edit.gif) {.center .size-8  .shadow}
 
 Studio改进
 ---------
@@ -54,45 +54,45 @@ Studio改进
 
 在支持热部署的文件（如视图控制器、描述符、消息包、角色文件）右上角新增状态图标，实时显示变更是否已生效：
 
-![热部署状态显示](./_media/jmix-2.5/hot_deploy.gif) {.center .size-8 .radius .shadow}
+![热部署状态显示](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/jmix-2.5/hot_deploy.gif) {.center .size-8 .radius .shadow}
 
 ### 应用日志分析
 
 Studio可识别控制台常见异常并提供解决方案建议，结合热部署指示器显著提升调试效率：
 
-![应用日志分析](./_media/jmix-2.5/app_log.png) {.center .size-8 .radius .shadow}
+![应用日志分析](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/jmix-2.5/app_log.png) {.center .size-8 .radius .shadow}
 
 ### Jmix 专属运行配置
 
 新增替代标准 Gradle 配置的 Jmix 运行/调试配置，确保应用能优雅地关闭且控制台无报错：
 
-![专属运行配置](./_media/jmix-2.5/run_dbg.png) {.center .size-8 .radius .shadow}
+![专属运行配置](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/jmix-2.5/run_dbg.png) {.center .size-8 .radius .shadow}
 
 ### CSS 类名编辑器与自动补全
 
 优化对 UI 组件的 `classNames` 属性输入支持，提供类名自动补全建议，并通过可视化编辑器快速选择样式：
 
-![CSS 类名编辑](./_media/jmix-2.5/class_name_editor.png) {.center .size-8 .radius .shadow}
+![CSS 类名编辑](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/jmix-2.5/class_name_editor.png) {.center .size-8 .radius .shadow}
 
 ### 按标签生成 OpenAPI 客户端
 
 生成 OpenAPI 客户端代码时支持按标签筛选，自动过滤未使用的 Schema，减少冗余代码生成：
 
-![OpenAPI 客户端生成](./_media/jmix-2.5/openapi_client.png) {.center .size-8 }
+![OpenAPI 客户端生成](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/jmix-2.5/openapi_client.png) {.center .size-8 }
 
 高级 BPM 任务列表视图
 -----------------
 
 通过视图创建向导中的 **BPM: Advanced task list view** 模板生成功能更丰富的任务列表视图，支持深度定制：
 
-![BPM 高级任务列表](./_media/jmix-2.5/adv_bpm_ui.png) {.center .size-8  }
+![BPM 高级任务列表](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/jmix-2.5/adv_bpm_ui.png) {.center .size-8  }
 
 表格空状态组件
 ----------------
 
 `DataGrid` 组件新增 `emptyStateComponent` 和 `emptyStateText` 属性，支持无数据时显示自定义内容，提升用户体验：
 
-![表格空状态组件](./_media/jmix-2.5/dg_empty_state.png) {.center .size-8  }
+![表格空状态组件](https://cdn.abmcode.com/zh-cn/jmix/releases/_media/jmix-2.5/dg_empty_state.png) {.center .size-8  }
 
 REST API 与 REST 数据存储改进
 --------------------
